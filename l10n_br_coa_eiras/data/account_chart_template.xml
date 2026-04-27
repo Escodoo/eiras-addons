@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2026 - TODAY, Wesley Oliveira <wesley.oliveira@escodoo.com.br>
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo noupdate="1">
+
+    <record id="account_template_eiras" model="account.chart.template">
+        <field name="name">Plano de contas Eiras</field>
+        <field name="code_digits">13</field>
+        <field name="cash_account_code_prefix">1.1.1.01.</field>
+        <field name="bank_account_code_prefix">1.1.1.02.</field>
+        <field name="transfer_account_code_prefix">1.1.1.02.</field>
+        <field name="currency_id" ref="base.BRL" />
+        <field name="parent_id" ref="l10n_br_coa.l10n_br_coa_template" />
+        <field name="use_anglo_saxon" eval="0" />
+    </record>
+
+</odoo>
