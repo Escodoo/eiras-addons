@@ -43,6 +43,10 @@ repos:
         entry: found obsolete files; remove them
         files: '^(\.travis\.yml|\.t2d\.yml|CONTRIBUTING\.md)$'
         language: fail
+  - repo: https://github.com/sbidoul/whool
+    rev: v1.3
+    hooks:
+      - id: whool-init
   - repo: https://github.com/oca/maintainer-tools
     rev: f9b919b9868143135a9c9cb03021089cabba8223
     hooks:
@@ -58,6 +62,7 @@ repos:
           - --repo-name=eiras-addons
           - --if-source-changed
           - --keep-source-digest
+      - id: oca-gen-external-dependencies
   - repo: https://github.com/OCA/odoo-pre-commit-hooks
     rev: v0.0.25
     hooks:
@@ -145,16 +150,6 @@ repos:
         args:
           - --settings=.
         exclude: /__init__\.py$
-  - repo: https://github.com/acsone/setuptools-odoo
-    rev: 3.3.2
-    hooks:
-      - id: setuptools-odoo-make-default
-      - id: setuptools-odoo-get-requirements
-        args:
-          - --output
-          - requirements.txt
-          - --header
-          - "# generated from manifests external_dependencies"
   - repo: https://github.com/PyCQA/flake8
     rev: 5.0.0
     hooks:

@@ -2,7 +2,7 @@
 _commit: v1.40
 _src_path: gh:oca/oca-addons-repo-template
 convert_readme_fragments_to_markdown: false
-enable_checklog_odoo: false
+enable_checklog_odoo: true
 generate_requirements_txt: true
 github_check_license: true
 github_ci_extra_env: {}
@@ -20,6 +20,6 @@ repo_description: Eiras Odoo Addons
 repo_name: Eiras Odoo Addons
 repo_slug: eiras-addons
 repo_website: https://github.com/Escodoo/eiras-addons
-use_pyproject_toml: false
+use_pyproject_toml: true
 use_ruff: false
 
