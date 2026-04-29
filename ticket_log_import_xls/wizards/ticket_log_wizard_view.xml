@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_ticket_log_wizard_form" model="ir.ui.view">
+        <field name="name">ticket.log.wizard.form</field>
+        <field name="model">ticket.log.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Import Ticket Log" class="o_form_document">
+                <header>
+                    <button
+                        name="action_preview"
+                        string="Preview"
+                        type="object"
+                        class="oe_highlight"
+                        states="draft"
+                    />
+                    <button
+                        name="action_import"
+                        string="Import"
+                        type="object"
+                        class="oe_highlight"
+                        states="preview"
+                    />
+                    <button
+                        name="action_reset"
+                        string="Reset"
+                        type="object"
+                        states="preview,done"
+                    />
+                    <button string="Cancel" special="cancel" />
+                    <field
+                        name="state"
+                        widget="statusbar"
+                        statusbar_visible="draft,preview,done"
+                    />
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <h3 class="text-muted">Import Ticket Log data from XLS/XLSX</h3>
+                    </div>
+                    <group attrs="{'invisible': [('state', '!=', 'draft')]}">
+                        <group>
+                            <field
+                                name="import_type"
+                                widget="radio"
+                                invisible="context.get('default_import_type')"
+                            />
+                            <field name="partner_id" placeholder="Select vendor..." />
+                        </group>
+                        <group>
+                            <field
+                                name="file"
+                                filename="filename"
+                                placeholder="Select XLS/XLSX file..."
+                            />
+                            <field name="filename" invisible="1" />
+                        </group>
+                    </group>
+
+                    <group
+                        string="Imported Data"
+                        attrs="{'invisible': [('state', '=', 'draft')]}"
+                    >
+                        <field name="preview_line_ids">
+                            <tree
+                                create="0"
+                                delete="0"
+                                editable="0"
+                                decoration-danger="is_valid == False"
+                            >
+                                <field name="row_number" />
+                                <field name="date" />
+                                <field name="license_plate" />
+                                <field name="driver_name" />
+                                <field name="fuel_type" />
+                                <field name="liters" />
+                                <field name="price_per_liter" />
+                                <field name="total_value" />
+                                <field name="odometer" />
+                                <field name="work" />
+                                <field name="is_valid" invisible="1" />
+                                <field
+                                    name="error_message"
+                                    decoration-danger="is_valid == False"
+                                />
+                            </tree>
+                        </field>
+                    </group>
+
+                    <group attrs="{'invisible': [('state', '!=', 'done')]}">
+                        <field name="order_count" />
+                    </group>
+
+                    <group attrs="{'invisible': [('error_summary', '=', False)]}">
+                        <field
+                            name="error_summary"
+                            readonly="1"
+                            decoration-danger="error_summary"
+                        />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_ticket_log_wizard" model="ir.actions.act_window">
+        <field name="name">Import Ticket Log</field>
+        <field name="res_model">ticket.log.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+    <menuitem
+        id="menu_ticket_log_root"
+        name="Ticket Log"
+        parent="purchase.menu_procurement_management"
+        sequence="80"
+    />
+
+    <record id="action_ticket_log_wizard_fuel" model="ir.actions.act_window">
+        <field name="name">Import Fuel</field>
+        <field name="res_model">ticket.log.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="context">{'default_import_type': 'fuel'}</field>
+    </record>
+
+    <record id="action_ticket_log_wizard_toll" model="ir.actions.act_window">
+        <field name="name">Import Toll</field>
+        <field name="res_model">ticket.log.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="context">{'default_import_type': 'toll'}</field>
+    </record>
+
+    <menuitem
+        id="menu_ticket_log_import_fuel"
+        name="Import Fuel"
+        action="action_ticket_log_wizard_fuel"
+        parent="menu_ticket_log_root"
+        sequence="10"
+    />
+
+    <menuitem
+        id="menu_ticket_log_import_toll"
+        name="Import Toll"
+        action="action_ticket_log_wizard_toll"
+        parent="menu_ticket_log_root"
+        sequence="20"
+    />
+</odoo>

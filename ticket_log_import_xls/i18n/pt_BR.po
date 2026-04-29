@@ -1,0 +1,431 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ticket_log_import_xls
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-15 19:47+0000\n"
+"PO-Revision-Date: 2026-07-15 16:53-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#. module: ticket_log_import_xls
+#. odoo-python
+#: code:addons/ticket_log_import_xls/wizards/ticket_log_wizard.py:0
+#, python-format
+msgid ""
+"%(count)d line(s) with error(s):\n"
+"%(errors)s"
+msgstr ""
+"%(count)d linha(s) com erro(s):\n"
+"%(errors)s"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_import_line__analytic_account_id
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__analytic_account_id
+msgid "Analytic Account"
+msgstr "Conta Analítica"
+
+#. module: ticket_log_import_xls
+#: model_terms:ir.ui.view,arch_db:ticket_log_import_xls.view_ticket_log_wizard_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_import_line__create_uid
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard__create_uid
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_import_line__create_date
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard__create_date
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__date
+msgid "Date"
+msgstr "Data"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_import_line__display_name
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard__display_name
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__display_name
+msgid "Display Name"
+msgstr "Nome de Exibição"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields.selection,name:ticket_log_import_xls.selection__ticket_log_wizard__state__done
+msgid "Done"
+msgstr "Concluído"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields.selection,name:ticket_log_import_xls.selection__ticket_log_wizard__state__draft
+msgid "Draft"
+msgstr "Rascunho"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_import_line__driver_id
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__driver_id
+msgid "Driver"
+msgstr "Motorista"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_import_line__driver_name
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__driver_name
+msgid "Driver Name"
+msgstr "Nome do Motorista"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.constraint,message:ticket_log_import_xls.constraint_ticket_log_import_line_source_hash_unique
+msgid "Duplicate import detected!"
+msgstr "Importação duplicada detectada!"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__error_message
+msgid "Error Message"
+msgstr "Mensagem de Erro"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard__error_summary
+msgid "Errors"
+msgstr "Erros"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard__filename
+msgid "Filename"
+msgstr "Nome do Arquivo"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__fleet_number
+msgid "Fleet Number"
+msgstr "Número da Frota"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields.selection,name:ticket_log_import_xls.selection__ticket_log_import_line__import_type__fuel
+#: model:ir.model.fields.selection,name:ticket_log_import_xls.selection__ticket_log_wizard__import_type__fuel
+msgid "Fuel"
+msgstr "Combustível"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__fuel_type
+msgid "Fuel Type"
+msgstr "Tipo de Combustível"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_import_line__id
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard__id
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: ticket_log_import_xls
+#: model_terms:ir.ui.view,arch_db:ticket_log_import_xls.view_ticket_log_wizard_form
+msgid "Import"
+msgstr "Importar"
+
+#. module: ticket_log_import_xls
+#: model:ir.actions.act_window,name:ticket_log_import_xls.action_ticket_log_wizard_fuel
+#: model:ir.ui.menu,name:ticket_log_import_xls.menu_ticket_log_import_fuel
+msgid "Import Fuel"
+msgstr "Importar Combustível"
+
+#. module: ticket_log_import_xls
+#: model:ir.actions.act_window,name:ticket_log_import_xls.action_ticket_log_wizard
+#: model_terms:ir.ui.view,arch_db:ticket_log_import_xls.view_ticket_log_wizard_form
+msgid "Import Ticket Log"
+msgstr "Importar Registro de Tíquetes"
+
+#. module: ticket_log_import_xls
+#: model_terms:ir.ui.view,arch_db:ticket_log_import_xls.view_ticket_log_wizard_form
+msgid "Import Ticket Log data from XLS/XLSX"
+msgstr "Importar dados de Registro de Tíquetes a partir de XLS/XLSX"
+
+#. module: ticket_log_import_xls
+#: model:ir.actions.act_window,name:ticket_log_import_xls.action_ticket_log_wizard_toll
+#: model:ir.ui.menu,name:ticket_log_import_xls.menu_ticket_log_import_toll
+msgid "Import Toll"
+msgstr "Importar Pedágio"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_import_line__import_type
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard__import_type
+msgid "Import Type"
+msgstr "Tipo de Importação"
+
+#. module: ticket_log_import_xls
+#: model_terms:ir.ui.view,arch_db:ticket_log_import_xls.view_ticket_log_wizard_form
+msgid "Imported Data"
+msgstr "Dados Importados"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__is_valid
+msgid "Is Valid"
+msgstr "É Válido"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_import_line____last_update
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard____last_update
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line____last_update
+msgid "Last Modified on"
+msgstr "Modificado em"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_import_line__write_uid
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard__write_uid
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__write_uid
+msgid "Last Updated by"
+msgstr "Última Atualização por"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_import_line__write_date
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard__write_date
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__write_date
+msgid "Last Updated on"
+msgstr "Última Atualização em"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_import_line__license_plate
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__license_plate
+msgid "License Plate"
+msgstr "Placa"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__liters
+msgid "Liters"
+msgstr "Litros"
+
+#. module: ticket_log_import_xls
+#. odoo-python
+#: code:addons/ticket_log_import_xls/wizards/ticket_log_wizard.py:0
+#, python-format
+msgid "No lines to import."
+msgstr "Não há linhas para importar."
+
+#. module: ticket_log_import_xls
+#. odoo-python
+#: code:addons/ticket_log_import_xls/wizards/ticket_log_wizard.py:0
+#, python-format
+msgid "No valid lines to import."
+msgstr "Não há linhas válidas para importar."
+
+#. module: ticket_log_import_xls
+#. odoo-python
+#: code:addons/ticket_log_import_xls/wizards/ticket_log_wizard.py:0
+#, python-format
+msgid "No vendor found."
+msgstr "Nenhum fornecedor encontrado."
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__odometer
+msgid "Odometer"
+msgstr "Odômetro"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_import_line__odometer_value
+msgid "Odometer Value"
+msgstr "Valor do Odômetro"
+
+#. module: ticket_log_import_xls
+#: model:ir.model,name:ticket_log_import_xls.model_fleet_vehicle_odometer
+msgid "Odometer log for a vehicle"
+msgstr "Registro de odômetro de um veículo"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard__order_count
+msgid "Orders Created"
+msgstr "Pedidos Criados"
+
+#. module: ticket_log_import_xls
+#. odoo-python
+#: code:addons/ticket_log_import_xls/wizards/ticket_log_wizard.py:0
+#, python-format
+msgid "Please select an XLS/XLSX file."
+msgstr "Selecione um arquivo XLS/XLSX."
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields.selection,name:ticket_log_import_xls.selection__ticket_log_wizard__state__preview
+#: model_terms:ir.ui.view,arch_db:ticket_log_import_xls.view_ticket_log_wizard_form
+msgid "Preview"
+msgstr "Pré-visualização"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard__preview_line_ids
+msgid "Preview Lines"
+msgstr "Linhas de Pré-visualização"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__price_per_liter
+msgid "Price Per Liter"
+msgstr "Preço por Litro"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_import_line__price_unit
+msgid "Price Unit"
+msgstr "Preço Unitário"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_import_line__product_id
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__product_id
+msgid "Product"
+msgstr "Produto"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_import_line__product_name
+msgid "Product Name"
+msgstr "Nome do Produto"
+
+#. module: ticket_log_import_xls
+#. odoo-python
+#: code:addons/ticket_log_import_xls/wizards/ticket_log_wizard.py:0
+#, python-format
+msgid "Product not found for: %s"
+msgstr "Produto não encontrado para: %s"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_import_line__purchase_order_id
+msgid "Purchase Order"
+msgstr "Pedido de Compra"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_import_line__purchase_order_line_id
+msgid "Purchase Order Line"
+msgstr "Linha do Pedido de Compra"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_import_line__quantity
+msgid "Quantity"
+msgstr "Quantidade"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_fleet_vehicle_odometer__refueling_cost
+msgid "Refueling Cost"
+msgstr "Custo de Abastecimento"
+
+#. module: ticket_log_import_xls
+#: model_terms:ir.ui.view,arch_db:ticket_log_import_xls.view_ticket_log_wizard_form
+msgid "Reset"
+msgstr "Reiniciar"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__row_number
+msgid "Row Number"
+msgstr "Número da Linha"
+
+#. module: ticket_log_import_xls
+#: model_terms:ir.ui.view,arch_db:ticket_log_import_xls.view_ticket_log_wizard_form
+msgid "Select XLS/XLSX file..."
+msgstr "Selecione o arquivo XLS/XLSX..."
+
+#. module: ticket_log_import_xls
+#: model_terms:ir.ui.view,arch_db:ticket_log_import_xls.view_ticket_log_wizard_form
+msgid "Select vendor..."
+msgstr "Selecione o fornecedor..."
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_import_line__source_hash
+msgid "Source Hash"
+msgstr "Hash de Origem"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard__state
+msgid "State"
+msgstr "Situação"
+
+#. module: ticket_log_import_xls
+#: model:ir.ui.menu,name:ticket_log_import_xls.menu_ticket_log_root
+msgid "Ticket Log"
+msgstr "Registro de Tíquetes"
+
+#. module: ticket_log_import_xls
+#: model:ir.ui.menu,name:ticket_log_import_xls.menu_ticket_log_import_line
+msgid "Ticket Log Import History"
+msgstr "Histórico de Importação de Tíquetes"
+
+#. module: ticket_log_import_xls
+#: model:ir.model,name:ticket_log_import_xls.model_ticket_log_import_line
+msgid "Ticket Log Import Line"
+msgstr "Linha de Importação de Tíquetes"
+
+#. module: ticket_log_import_xls
+#: model:ir.actions.act_window,name:ticket_log_import_xls.action_ticket_log_import_line
+msgid "Ticket Log Import Lines"
+msgstr "Linhas de Importação de Tíquetes"
+
+#. module: ticket_log_import_xls
+#: model:ir.model,name:ticket_log_import_xls.model_ticket_log_wizard
+msgid "Ticket Log Import Wizard"
+msgstr "Assistente de Importação de Tíquetes"
+
+#. module: ticket_log_import_xls
+#: model:ir.model,name:ticket_log_import_xls.model_ticket_log_wizard_line
+msgid "Ticket Log Wizard Preview Line"
+msgstr "Linha de Pré-visualização do Assistente de Tíquetes"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields.selection,name:ticket_log_import_xls.selection__ticket_log_import_line__import_type__toll
+#: model:ir.model.fields.selection,name:ticket_log_import_xls.selection__ticket_log_wizard__import_type__toll
+msgid "Toll"
+msgstr "Pedágio"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_import_line__total_value
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__total_value
+msgid "Total Value"
+msgstr "Valor Total"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_import_line__transaction_date
+msgid "Transaction Date"
+msgstr "Data da Transação"
+
+#. module: ticket_log_import_xls
+#. odoo-python
+#: code:addons/ticket_log_import_xls/wizards/ticket_log_wizard.py:0
+#, python-format
+msgid "Unable to read XLSX file: %s"
+msgstr "Não foi possível ler o arquivo XLSX: %s"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_import_line__vehicle_id
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__vehicle_id
+msgid "Vehicle"
+msgstr "Veículo"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard__partner_id
+msgid "Vendor"
+msgstr "Fornecedor"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__wizard_id
+msgid "Wizard"
+msgstr "Assistente"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard_line__work
+msgid "Work"
+msgstr "Obra"
+
+#. module: ticket_log_import_xls
+#: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard__file
+msgid "XLS/XLSX File"
+msgstr "Arquivo XLS/XLSX"
+
+#. module: ticket_log_import_xls
+#. odoo-python
+#: code:addons/ticket_log_import_xls/wizards/ticket_log_wizard.py:0
+#, python-format
+msgid "XLSX file must contain at least one data row."
+msgstr "O arquivo XLSX deve conter pelo menos uma linha de dados."
