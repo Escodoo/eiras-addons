@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_eiras_controlid_import,eiras.controlid.import all,model_eiras_controlid_import,base.group_user,1,1,1,1
+access_eiras_controlid_import_line,eiras.controlid.import.line all,model_eiras_controlid_import_line,base.group_user,1,1,1,1

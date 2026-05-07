@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2026 - TODAY, Cristiano Mafra Junior <cristiano.mafra@escodoo.com.br>
+License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+
+    <record id="view_eiras_controlid_import_form" model="ir.ui.view">
+        <field name="name">eiras.controlid.import.form</field>
+        <field name="model">eiras.controlid.import</field>
+        <field name="arch" type="xml">
+            <form string="Import Control ID Attendance">
+                <field name="state" invisible="1" />
+
+                <!-- Step 1: Select File -->
+                <group invisible="state != 'draft'">
+                    <group string="File">
+                        <field
+                            name="csv_file"
+                            filename="csv_filename"
+                            widget="binary"
+                            string="CSV File (Control ID)"
+                        />
+                        <field name="csv_filename" invisible="1" />
+                        <field name="skip_existing" />
+                    </group>
+                </group>
+
+                <!-- Step 2: Preview -->
+                <group invisible="state == 'draft'">
+                    <div class="alert alert-info mb-2" role="alert">
+                        <strong>Analysis complete — </strong>
+                        <field name="total_lines" readonly="1" nolabel="1" /> lines |
+                        <span class="text-success">
+                            <field name="found_lines" readonly="1" nolabel="1" /> found
+                        </span> |
+                        <span class="text-danger">
+                            <field
+                                name="not_found_lines"
+                                readonly="1"
+                                nolabel="1"
+                            /> not found
+                        </span>
+                        <br />
+                        Red rows indicate employees not found in the system.
+                        You can link them manually before importing.
+                    </div>
+                </group>
+
+                <field name="line_ids" invisible="state == 'draft'" nolabel="1">
+                    <tree
+                        editable="bottom"
+                        decoration-danger="not employee_id"
+                        decoration-muted="skip"
+                    >
+                        <field name="employee_name" />
+                        <field name="employee_id" />
+                        <field name="date" />
+                        <field name="entry1" />
+                        <field name="exit1" />
+                        <field name="entry2" optional="show" />
+                        <field name="exit2" optional="show" />
+                        <field name="notes" optional="show" />
+                        <field name="skip" />
+                    </tree>
+                </field>
+
+                <footer>
+                    <button
+                        name="action_analyze"
+                        type="object"
+                        string="Analyze File"
+                        class="btn-primary"
+                        invisible="state != 'draft'"
+                    />
+                    <button
+                        name="action_import"
+                        type="object"
+                        string="Import Records"
+                        class="btn-primary"
+                        invisible="state == 'draft'"
+                    />
+                    <button special="cancel" string="Cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_eiras_controlid_import" model="ir.actions.act_window">
+        <field name="name">Import Control ID</field>
+        <field name="res_model">eiras.controlid.import</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+</odoo>
