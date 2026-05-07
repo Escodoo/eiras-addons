@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2024 Escodoo
+     License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl). -->
+<odoo>
+
+    <menuitem
+        id="menu_eiras_controlid_import"
+        name="Import Control ID"
+        parent="hr_timesheet.timesheet_menu_root"
+        action="eiras_controlid_import.action_eiras_controlid_import"
+        sequence="11"
+        groups="hr_timesheet.group_hr_timesheet_approver"
+    />
+
+</odoo>

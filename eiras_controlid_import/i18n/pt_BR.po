@@ -1,0 +1,261 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* eiras_controlid_import
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-07 14:20+0000\n"
+"PO-Revision-Date: 2026-05-07 14:20+0000\n"
+"Last-Translator: Cristiano Mafra Junior <cristiano.mafra@escodoo.com.br>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. module: eiras_controlid_import
+#: model_terms:ir.ui.view,arch_db:eiras_controlid_import.view_eiras_controlid_import_form
+msgid ""
+"<span>Red rows indicate employees not found. You can link them manually "
+"before importing.</span>"
+msgstr ""
+"<span>Linhas em vermelho indicam funcionários não encontrados. Você pode "
+"vinculá-los manualmente antes de importar.</span>"
+
+#. module: eiras_controlid_import
+#. odoo-python
+#: code:addons/eiras_controlid_import/wizards/controlid_import_wizard.py:0
+#, python-format
+msgid ""
+"All records already exist in the system. Uncheck 'Skip Existing Records' to "
+"reimport."
+msgstr ""
+"Todos os registros já existem no sistema. Desmarque 'Ignorar Registros "
+"Existentes' para reimportar."
+
+#. module: eiras_controlid_import
+#: model_terms:ir.ui.view,arch_db:eiras_controlid_import.view_eiras_controlid_import_form
+msgid "Analyze File"
+msgstr "Analisar Arquivo"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import__csv_file
+msgid "CSV File"
+msgstr "Arquivo CSV"
+
+#. module: eiras_controlid_import
+#: model_terms:ir.ui.view,arch_db:eiras_controlid_import.view_eiras_controlid_import_form
+msgid "CSV File (Control ID)"
+msgstr "Arquivo CSV (Control ID)"
+
+#. module: eiras_controlid_import
+#: model_terms:ir.ui.view,arch_db:eiras_controlid_import.view_eiras_controlid_import_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import_line__entry1
+msgid "Check In 1"
+msgstr "Entrada 1"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import_line__entry2
+msgid "Check In 2"
+msgstr "Entrada 2"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import_line__exit1
+msgid "Check Out 1"
+msgstr "Saída 1"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import_line__exit2
+msgid "Check Out 2"
+msgstr "Saída 2"
+
+#. module: eiras_controlid_import
+#: model:ir.model,name:eiras_controlid_import.model_eiras_controlid_import_line
+msgid "Control ID Import Line"
+msgstr "Linha de Importação Control ID"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import__create_uid
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import_line__create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import__create_date
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import_line__create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import__csv_filename
+msgid "Csv Filename"
+msgstr "Nome do Arquivo CSV"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import_line__date
+msgid "Date"
+msgstr "Data"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import__default_description
+msgid "Default Description"
+msgstr "Descrição Padrão"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import__default_project_id
+msgid "Default Project"
+msgstr "Projeto Padrão"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import__display_name
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import_line__display_name
+msgid "Display Name"
+msgstr "Nome de Exibição"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import_line__employee_name
+msgid "Employee (CSV)"
+msgstr "Funcionário (CSV)"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import__found_lines
+msgid "Employees Found"
+msgstr "Funcionários Encontrados"
+
+#. module: eiras_controlid_import
+#: model_terms:ir.ui.view,arch_db:eiras_controlid_import.view_eiras_controlid_import_form
+msgid "File"
+msgstr "Arquivo"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import__id
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: eiras_controlid_import
+#: model:ir.actions.act_window,name:eiras_controlid_import.action_eiras_controlid_import
+#: model:ir.ui.menu,name:eiras_controlid_import.menu_eiras_controlid_import
+msgid "Import Control ID"
+msgstr "Importar Control ID"
+
+#. module: eiras_controlid_import
+#: model:ir.model,name:eiras_controlid_import.model_eiras_controlid_import
+#: model_terms:ir.ui.view,arch_db:eiras_controlid_import.view_eiras_controlid_import_form
+msgid "Import Control ID Attendance"
+msgstr "Importar Ponto Control ID"
+
+#. module: eiras_controlid_import
+#: model_terms:ir.ui.view,arch_db:eiras_controlid_import.view_eiras_controlid_import_form
+msgid "Import Options"
+msgstr "Opções de Importação"
+
+#. module: eiras_controlid_import
+#: model_terms:ir.ui.view,arch_db:eiras_controlid_import.view_eiras_controlid_import_form
+msgid "Import Records"
+msgstr "Importar Registros"
+
+#. module: eiras_controlid_import
+#. odoo-python
+#: code:addons/eiras_controlid_import/wizards/controlid_import_wizard.py:0
+#, python-format
+msgid "Imported Timesheet Lines"
+msgstr "Linhas de Planilha Importadas"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import____last_update
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import_line____last_update
+msgid "Last Modified on"
+msgstr "Última Modificação em"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import__write_uid
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import_line__write_uid
+msgid "Last Updated by"
+msgstr "Última Atualização por"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import__write_date
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import_line__write_date
+msgid "Last Updated on"
+msgstr "Última Atualização em"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import__line_ids
+msgid "Lines"
+msgstr "Linhas"
+
+#. module: eiras_controlid_import
+#. odoo-python
+#: code:addons/eiras_controlid_import/wizards/controlid_import_wizard.py:0
+#, python-format
+msgid "No attendance records found in the file. Please check the format."
+msgstr "Nenhum registro de ponto encontrado no arquivo. Verifique o formato."
+
+#. module: eiras_controlid_import
+#. odoo-python
+#: code:addons/eiras_controlid_import/wizards/controlid_import_wizard.py:0
+#, python-format
+msgid ""
+"No lines available for import. Make sure employees were found and are not "
+"marked as 'Skip'."
+msgstr ""
+"Nenhuma linha disponível para importação. Certifique-se de que os "
+"funcionários foram encontrados e não estão marcados como 'Ignorar'."
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import__not_found_lines
+msgid "Not Found"
+msgstr "Não Encontrados"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import_line__notes
+msgid "Notes"
+msgstr "Observações"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import_line__employee_id
+msgid "Odoo Employee"
+msgstr "Funcionário Odoo"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields.selection,name:eiras_controlid_import.selection__eiras_controlid_import__state__preview
+msgid "Preview"
+msgstr "Pré-visualização"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields.selection,name:eiras_controlid_import.selection__eiras_controlid_import__state__draft
+msgid "Select"
+msgstr "Selecionar"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import_line__skip
+msgid "Skip"
+msgstr "Ignorar"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import__skip_existing
+msgid "Skip Existing Records"
+msgstr "Ignorar Registros Existentes"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import__state
+msgid "State"
+msgstr "Estado"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import__total_lines
+msgid "Total Lines"
+msgstr "Total de Linhas"
+
+#. module: eiras_controlid_import
+#: model:ir.model.fields,field_description:eiras_controlid_import.field_eiras_controlid_import_line__wizard_id
+msgid "Wizard"
+msgstr "Assistente"
