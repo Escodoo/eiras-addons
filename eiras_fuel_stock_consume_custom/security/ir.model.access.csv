@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_fuel_consume_wizard,fuel.consume.wizard user,model_fuel_consume_wizard,fuel_stock_consume.group_fuel_consumption_manager,1,1,1,1
