@@ -9,7 +9,7 @@
     "license": "AGPL-3",
     "author": "Escodoo",
     "website": "https://github.com/Escodoo/eiras-addons",
-    "depends": ["purchase"],
+    "depends": ["purchase", "fleet_vehicle_purchase"],
     "data": [
         "views/purchase_views.xml",
     ],

@@ -16,6 +16,38 @@
                 <attribute name="class">text-nowrap text-truncate d-block</attribute>
                 <attribute name="widget" />
             </xpath>
+            <xpath
+                expr="//field[@name='order_line']/form//field[@name='analytic_distribution']"
+                position="after"
+            >
+                <field name="fleet_vehicle_from_po" invisible="1" />
+                <field
+                    name="fleet_vehicle_id"
+                    attrs="{'readonly': [('fleet_vehicle_from_po', '=', True)]}"
+                />
+            </xpath>
+            <xpath
+                expr="//field[@name='order_line']/tree//field[@name='product_id']"
+                position="after"
+            >
+                <field name="product_categ_id" optional="show" readonly="1" />
+            </xpath>
+            <xpath
+                expr="//field[@name='order_line']/form//field[@name='product_id']"
+                position="after"
+            >
+                <field name="product_categ_id" readonly="1" />
+            </xpath>
         </field>
+    </record>
+
+    <record id="purchase.purchase_rfq" model="ir.actions.act_window">
+        <field
+            name="context"
+        >{'quotation_only': True, 'search_default_my_purchases': 1}</field>
+    </record>
+
+    <record id="purchase.purchase_form_action" model="ir.actions.act_window">
+        <field name="context">{'search_default_my_Orders': 1}</field>
     </record>
 </odoo>
