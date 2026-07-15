@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2026 - TODAY, Wesley Oliveira <wesley.oliveira@escodoo.com.br>
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo noupdate="1">
+
+    <record id="eiras_group_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1</field>
+        <field name="name">ATIVO</field>
+    </record>
+
+    <record id="eiras_group_1_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.1</field>
+        <field name="name">CIRCULANTE</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1" />
+    </record>
+
+    <record id="eiras_group_1_1_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.1.1</field>
+        <field name="name">DISPONIVEL</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_1" />
+    </record>
+
+    <record id="eiras_group_1_1_1_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.1.1.01</field>
+        <field name="name">Bens Numerarios</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_1_1" />
+    </record>
+
+    <record id="eiras_group_1_1_1_02" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.1.1.02</field>
+        <field name="name">Bancos Conta Movimento</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_1_1" />
+    </record>
+
+    <record id="eiras_group_1_1_1_03" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.1.1.03</field>
+        <field name="name">Banco c/ Aplicaçoes Financeiras</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_1_1" />
+    </record>
+
+    <record id="eiras_group_1_1_2" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.1.2</field>
+        <field name="name">Creditos</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_1" />
+    </record>
+
+    <record id="eiras_group_1_1_2_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.1.2.01</field>
+        <field name="name">Clientes a Receber</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_1_2" />
+    </record>
+
+    <record id="eiras_group_1_1_2_02" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.1.2.02</field>
+        <field name="name">Cauções e Residual de Contratos a Receber</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_1_2" />
+    </record>
+
+    <record id="eiras_group_1_1_2_08" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.1.2.08</field>
+        <field name="name">Cheques em Cobranca</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_1_2" />
+    </record>
+
+    <record id="eiras_group_1_1_2_14" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.1.2.14</field>
+        <field name="name">Administradora de Cartao a Receber</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_1_2" />
+    </record>
+
+    <record id="eiras_group_1_1_2_21" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.1.2.21</field>
+        <field name="name">Creditos com Terceiros</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_1_2" />
+    </record>
+
+    <record id="eiras_group_1_1_2_23" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.1.2.23</field>
+        <field name="name">Consórcios a Receber</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_1_2" />
+    </record>
+
+    <record id="eiras_group_1_1_2_28" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.1.2.28</field>
+        <field name="name">Adiantamentos a Fornecedores</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_1_2" />
+    </record>
+
+    <record id="eiras_group_1_1_2_29" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.1.2.29</field>
+        <field name="name">Adiantamentos a Terceiros</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_1_2" />
+    </record>
+
+    <record id="eiras_group_1_1_2_30" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.1.2.30</field>
+        <field name="name">Adiantamentos a Empregados</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_1_2" />
+    </record>
+
+    <record id="eiras_group_1_1_2_31" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.1.2.31</field>
+        <field name="name">Tributos a Recuperar</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_1_2" />
+    </record>
+
+    <record id="eiras_group_1_1_3" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.1.3</field>
+        <field name="name">ESTOQUES</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_1" />
+    </record>
+
+    <record id="eiras_group_1_1_3_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.1.3.01</field>
+        <field name="name">Estoques</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_1_3" />
+    </record>
+
+    <record id="eiras_group_1_1_4" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.1.4</field>
+        <field name="name">DESPESAS ANTECIPADAS</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_1" />
+    </record>
+
+    <record id="eiras_group_1_1_4_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.1.4.01</field>
+        <field name="name">Despesas Antecipadas</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_1_4" />
+    </record>
+
+    <record id="eiras_group_1_2" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.2</field>
+        <field name="name">ATIVO NÃO CIRCULANTE</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1" />
+    </record>
+
+    <record id="eiras_group_1_2_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.2.1</field>
+        <field name="name">REALIZÁVEL A LONGO PRAZO</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_2" />
+    </record>
+
+    <record id="eiras_group_1_2_1_10" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.2.1.10</field>
+        <field name="name">Creditos com Partes Relacionadas</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_2_1" />
+    </record>
+
+    <record id="eiras_group_1_2_1_20" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.2.1.20</field>
+        <field name="name">Aplicações a Longo Prazo</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_2_1" />
+    </record>
+
+    <record id="eiras_group_1_2_2" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.2.2</field>
+        <field name="name">INVESTIMENTOS</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_2" />
+    </record>
+
+    <record id="eiras_group_1_2_2_10" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.2.2.10</field>
+        <field name="name">Consorcios</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_2_2" />
+    </record>
+
+    <record id="eiras_group_1_2_3" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.2.3</field>
+        <field name="name">IMOBILIZADO</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_2" />
+    </record>
+
+    <record id="eiras_group_1_2_3_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.2.3.01</field>
+        <field name="name">Terrenos</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_2_3" />
+    </record>
+
+    <record id="eiras_group_1_2_3_02" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.2.3.02</field>
+        <field name="name">Edificacoes e Construcoes</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_2_3" />
+    </record>
+
+    <record id="eiras_group_1_2_3_04" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.2.3.04</field>
+        <field name="name">Maquinas e Equipamentos</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_2_3" />
+    </record>
+
+    <record id="eiras_group_1_2_3_05" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.2.3.05</field>
+        <field name="name">Equipamentos de Informatica</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_2_3" />
+    </record>
+
+    <record id="eiras_group_1_2_3_06" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.2.3.06</field>
+        <field name="name">Moveis e Utensilios</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_2_3" />
+    </record>
+
+    <record id="eiras_group_1_2_3_07" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.2.3.07</field>
+        <field name="name">Ferramentas</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_2_3" />
+    </record>
+
+    <record id="eiras_group_1_2_3_08" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.2.3.08</field>
+        <field name="name">Veiculos</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_2_3" />
+    </record>
+
+    <record id="eiras_group_1_2_3_09" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.2.3.09</field>
+        <field name="name">Benfeitorias em Imoveis de Terceiros</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_2_3" />
+    </record>
+
+    <record id="eiras_group_1_2_3_10" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.2.3.10</field>
+        <field name="name">Direito de Uso</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_2_3" />
+    </record>
+
+    <record id="eiras_group_1_2_3_11" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.2.3.11</field>
+        <field name="name">Construções em Andamento</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_2_3" />
+    </record>
+
+    <record id="eiras_group_1_2_3_12" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.2.3.12</field>
+        <field name="name">Outros Imobilizados</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_2_3" />
+    </record>
+
+    <record id="eiras_group_1_3" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.3</field>
+        <field name="name">CONTAS DE COMPENSAÇÃO</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1" />
+    </record>
+
+    <record id="eiras_group_1_3_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.3.1</field>
+        <field name="name">Contas de Compensação</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_3" />
+    </record>
+
+    <record id="eiras_group_1_3_1_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">1.3.1.01</field>
+        <field name="name">Contas Extrapatrimoniais</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_1_3_1" />
+    </record>
+
+    <record id="eiras_group_2" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2</field>
+        <field name="name">PASSIVO</field>
+    </record>
+
+    <record id="eiras_group_2_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.1</field>
+        <field name="name">CIRCULANTE</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2" />
+    </record>
+
+    <record id="eiras_group_2_1_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.1.1</field>
+        <field name="name">CIRCULANTE</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_1" />
+    </record>
+
+    <record id="eiras_group_2_1_1_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.1.1.01</field>
+        <field name="name">Fornecedores</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_1_1" />
+    </record>
+
+    <record id="eiras_group_2_1_1_05" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.1.1.05</field>
+        <field name="name">Obrigacoes Trabalhistas</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_1_1" />
+    </record>
+
+    <record id="eiras_group_2_1_1_06" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.1.1.06</field>
+        <field name="name">Obrigacoes Fiscais e Sociais a Recolher</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_1_1" />
+    </record>
+
+    <record id="eiras_group_2_1_1_08" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.1.1.08</field>
+        <field name="name">Adiantamentos Diversos</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_1_1" />
+    </record>
+
+    <record id="eiras_group_2_1_1_09" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.1.1.09</field>
+        <field name="name">Emprestimos e Financiamentos</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_1_1" />
+    </record>
+
+    <record id="eiras_group_2_1_1_10" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.1.1.10</field>
+        <field name="name">Cheques a Compensar</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_1_1" />
+    </record>
+
+    <record id="eiras_group_2_1_1_17" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.1.1.17</field>
+        <field name="name">Outras Contas a Pagar</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_1_1" />
+    </record>
+
+    <record id="eiras_group_2_1_1_22" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.1.1.22</field>
+        <field name="name">Provisoes Trabalhistas</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_1_1" />
+    </record>
+
+    <record id="eiras_group_2_2" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.2</field>
+        <field name="name">PASSIVO NÃO CIRCULANTE</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2" />
+    </record>
+
+    <record id="eiras_group_2_2_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.2.1</field>
+        <field name="name">PASSIVO NÃO CIRCULANTE</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_2" />
+    </record>
+
+    <record id="eiras_group_2_2_1_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.2.1.01</field>
+        <field name="name">Emprestimos e Financiamentos</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_2_1" />
+    </record>
+
+    <record id="eiras_group_2_2_1_02" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.2.1.02</field>
+        <field name="name">Partes Relacionadas</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_2_1" />
+    </record>
+
+    <record id="eiras_group_2_2_1_04" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.2.1.04</field>
+        <field name="name">Adiantamentos Diversos</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_2_1" />
+    </record>
+
+    <record id="eiras_group_2_3" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.3</field>
+        <field name="name">RESULTADOS DE EXERCICIOS FUTUROS</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2" />
+    </record>
+
+    <record id="eiras_group_2_3_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.3.1</field>
+        <field name="name">RESULTADO DE EXERCICIOS FUTUROS</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_3" />
+    </record>
+
+    <record id="eiras_group_2_3_1_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.3.1.01</field>
+        <field name="name">Receitas de Exercicios Futuros</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_3_1" />
+    </record>
+
+    <record id="eiras_group_2_3_1_02" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.3.1.02</field>
+        <field name="name">(-)Custos/Despesas de Exercicios Futuros</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_3_1" />
+    </record>
+
+    <record id="eiras_group_2_4" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.4</field>
+        <field name="name">PATRIMONIO LIQUIDO</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2" />
+    </record>
+
+    <record id="eiras_group_2_4_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.4.1</field>
+        <field name="name">Capital Social</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_4" />
+    </record>
+
+    <record id="eiras_group_2_4_1_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.4.1.01</field>
+        <field name="name">Capital Social</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_4_1" />
+    </record>
+
+    <record id="eiras_group_2_4_1_02" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.4.1.02</field>
+        <field name="name">(-) Capital a Integralizar</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_4_1" />
+    </record>
+
+    <record id="eiras_group_2_4_1_03" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.4.1.03</field>
+        <field name="name">Adiantamento p/ aumento de Capital</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_4_1" />
+    </record>
+
+    <record id="eiras_group_2_4_6" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.4.6</field>
+        <field name="name">Lucros ou Prejuizos Acumulados</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_4" />
+    </record>
+
+    <record id="eiras_group_2_4_6_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.4.6.01</field>
+        <field name="name">Lucros Acumulados</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_4_6" />
+    </record>
+
+    <record id="eiras_group_2_4_6_02" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.4.6.02</field>
+        <field name="name">Ajustes Credores Periodos Anteriores</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_4_6" />
+    </record>
+
+    <record id="eiras_group_2_4_6_03" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.4.6.03</field>
+        <field name="name">Lucro Líquido do Ano</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_4_6" />
+    </record>
+
+    <record id="eiras_group_2_4_6_04" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.4.6.04</field>
+        <field name="name">Prejuizos Acumulados</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_4_6" />
+    </record>
+
+    <record id="eiras_group_2_4_6_05" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.4.6.05</field>
+        <field name="name">(-) Ajustes Devedores Period. Anteriores</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_4_6" />
+    </record>
+
+    <record id="eiras_group_2_4_6_06" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.4.6.06</field>
+        <field name="name">(-) Prejuizo Líquido do Ano</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_4_6" />
+    </record>
+
+    <record id="eiras_group_2_4_6_07" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.4.6.07</field>
+        <field name="name">(-) Antecipacao de Lucros</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_4_6" />
+    </record>
+
+    <record id="eiras_group_2_6" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.6</field>
+        <field name="name">CONTAS DE COMPENSAÇÃO</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2" />
+    </record>
+
+    <record id="eiras_group_2_6_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.6.1</field>
+        <field name="name">Contas de Compensação</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_6" />
+    </record>
+
+    <record id="eiras_group_2_6_1_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">2.6.1.01</field>
+        <field name="name">Contas Extrapatrimoniais</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_2_6_1" />
+    </record>
+
+    <record id="eiras_group_3" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3</field>
+        <field name="name">APURACAO DO RESULTADO DO EXERCICIO</field>
+    </record>
+
+    <record id="eiras_group_3_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.1</field>
+        <field name="name">RECEITA OPERACIONAL LIQUIDA</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3" />
+    </record>
+
+    <record id="eiras_group_3_1_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.1.1</field>
+        <field name="name">RECEITA OPERACIONAL BRUTA</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_1" />
+    </record>
+
+    <record id="eiras_group_3_1_1_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.1.1.01</field>
+        <field name="name">Receita de Comercializacao Mercado Nac.</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_1_1" />
+    </record>
+
+    <record id="eiras_group_3_1_1_07" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.1.1.07</field>
+        <field name="name">Receitas de Venda de Servicos Merc. Nac</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_1_1" />
+    </record>
+
+    <record id="eiras_group_3_1_2" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.1.2</field>
+        <field name="name">(-) Deducoes da Receita Bruta</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_1" />
+    </record>
+
+    <record id="eiras_group_3_1_2_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.1.2.01</field>
+        <field name="name">Vendas Canceladas</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_1_2" />
+    </record>
+
+    <record id="eiras_group_3_1_2_04" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.1.2.04</field>
+        <field name="name">Abatimentos</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_1_2" />
+    </record>
+
+    <record id="eiras_group_3_1_2_07" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.1.2.07</field>
+        <field name="name">Devolucoes Recebidas</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_1_2" />
+    </record>
+
+    <record id="eiras_group_3_1_2_10" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.1.2.10</field>
+        <field name="name">Impostos s/ Vendas</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_1_2" />
+    </record>
+
+    <record id="eiras_group_3_2" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.2</field>
+        <field name="name">(-) CUSTOS GERAIS</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3" />
+    </record>
+
+    <record id="eiras_group_3_2_2" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.2.2</field>
+        <field name="name">CUSTOS DOS SERVICOS PRESTADOS</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_2" />
+    </record>
+
+    <record id="eiras_group_3_2_2_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.2.2.01</field>
+        <field name="name">(-) Materiais Aplicados</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_2_2" />
+    </record>
+
+    <record id="eiras_group_3_2_2_02" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.2.2.02</field>
+        <field name="name">(-) Mão de Obra Direta</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_2_2" />
+    </record>
+
+    <record id="eiras_group_3_2_2_07" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.2.2.07</field>
+        <field name="name">(-) Outros Custos</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_2_2" />
+    </record>
+
+    <record id="eiras_group_3_2_4" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.2.4</field>
+        <field name="name">CUSTOS DAS MERCADORIAS VENDIDAS</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_2" />
+    </record>
+
+    <record id="eiras_group_3_2_4_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.2.4.01</field>
+        <field name="name">(-) Custos das Mercadorias Vendidas</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_2_4" />
+    </record>
+
+    <record id="eiras_group_3_3" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.3</field>
+        <field name="name">DESPESAS OPERACIONAIS</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3" />
+    </record>
+
+    <record id="eiras_group_3_3_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.3.1</field>
+        <field name="name">DESPESAS COM VENDAS</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_3" />
+    </record>
+
+    <record id="eiras_group_3_3_1_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.3.1.01</field>
+        <field name="name">Despesas com Pessoal</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_3_1" />
+    </record>
+
+    <record id="eiras_group_3_3_1_04" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.3.1.04</field>
+        <field name="name">Outras Despesas com Vendas</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_3_1" />
+    </record>
+
+    <record id="eiras_group_3_3_2" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.3.2</field>
+        <field name="name">DESPESAS ADMINISTRATIVAS</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_3" />
+    </record>
+
+    <record id="eiras_group_3_3_2_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.3.2.01</field>
+        <field name="name">Despesas com Pessoal</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_3_2" />
+    </record>
+
+    <record id="eiras_group_3_3_2_05" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.3.2.05</field>
+        <field name="name">Despesas com Diretoria</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_3_2" />
+    </record>
+
+    <record id="eiras_group_3_3_2_08" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.3.2.08</field>
+        <field name="name">Outras Despesas Administrativas</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_3_2" />
+    </record>
+
+    <record id="eiras_group_3_3_2_12" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.3.2.12</field>
+        <field name="name">Despesas Tributarias</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_3_2" />
+    </record>
+
+    <record id="eiras_group_3_3_2_16" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.3.2.16</field>
+        <field name="name">Despesas com Provisoes</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_3_2" />
+    </record>
+
+    <record id="eiras_group_3_3_3" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.3.3</field>
+        <field name="name">RESULTADO FINANCEIRO LIQUIDO</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_3" />
+    </record>
+
+    <record id="eiras_group_3_3_3_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.3.3.01</field>
+        <field name="name">Despesas Financeiras</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_3_3" />
+    </record>
+
+    <record id="eiras_group_3_3_3_04" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.3.3.04</field>
+        <field name="name">(+) Receitas Financeiras</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_3_3" />
+    </record>
+
+    <record id="eiras_group_3_3_4" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.3.4</field>
+        <field name="name">OUTRAS RECEITAS OPERACIONAIS</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_3" />
+    </record>
+
+    <record id="eiras_group_3_3_4_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.3.4.01</field>
+        <field name="name">Outras Receitas</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_3_4" />
+    </record>
+
+    <record id="eiras_group_3_3_5" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.3.5</field>
+        <field name="name">RESULTADO DE PARTICIPACOES SOCIETARIAS</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_3" />
+    </record>
+
+    <record id="eiras_group_3_3_6" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.3.6</field>
+        <field name="name">OUTRAS RENDAS</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_3" />
+    </record>
+
+    <record id="eiras_group_3_3_6_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.3.6.01</field>
+        <field name="name">Renda Patrimonial</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_3_6" />
+    </record>
+
+    <record id="eiras_group_3_4" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.4</field>
+        <field name="name">OUTROS RESULTADOS</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3" />
+    </record>
+
+    <record id="eiras_group_3_4_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.4.1</field>
+        <field name="name">Resultado na Alienacao de Investimento</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_4" />
+    </record>
+
+    <record id="eiras_group_3_4_1_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.4.1.01</field>
+        <field name="name">Receitas com Alienacoes de Investimentos</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_4_1" />
+    </record>
+
+    <record id="eiras_group_3_4_2" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.4.2</field>
+        <field name="name">Resultado na Alienacao de Imobilizado</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_4" />
+    </record>
+
+    <record id="eiras_group_3_4_2_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.4.2.01</field>
+        <field name="name">Receitas com Alienacoes de Imobilizados</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_4_2" />
+    </record>
+
+    <record id="eiras_group_3_5" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.5</field>
+        <field name="name">PROVISOES TRIBUTARIAS</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3" />
+    </record>
+
+    <record id="eiras_group_3_5_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.5.1</field>
+        <field name="name">Provisao para Contribuicao Social</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_5" />
+    </record>
+
+    <record id="eiras_group_3_5_1_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.5.1.01</field>
+        <field name="name">Provisao para Contribuicao Social</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_5_1" />
+    </record>
+
+    <record id="eiras_group_3_5_2" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.5.2</field>
+        <field name="name">Provisao para Imposto de Renda</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_5" />
+    </record>
+
+    <record id="eiras_group_3_5_2_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.5.2.01</field>
+        <field name="name">Provisao para Imposto de Renda</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_5_2" />
+    </record>
+
+    <record id="eiras_group_3_6" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.6</field>
+        <field name="name">PARTICIPACOES EM RESULTADOS</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3" />
+    </record>
+
+    <record id="eiras_group_3_6_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.6.1</field>
+        <field name="name">Participacoes em Resultados</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_6" />
+    </record>
+
+    <record id="eiras_group_3_6_1_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.6.1.01</field>
+        <field name="name">Participacoes de Empregados</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_6_1" />
+    </record>
+
+    <record id="eiras_group_3_6_1_02" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.6.1.02</field>
+        <field name="name">Participacoes de Administradores</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_6_1" />
+    </record>
+
+    <record id="eiras_group_3_8" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.8</field>
+        <field name="name">Transitorio</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3" />
+    </record>
+
+    <record id="eiras_group_3_8_1" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.8.1</field>
+        <field name="name">Transitorio</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_8" />
+    </record>
+
+    <record id="eiras_group_3_8_1_01" model="account.group.template">
+        <field name="chart_template_id" ref="account_template_eiras" />
+        <field name="code_prefix_start">3.8.1.01</field>
+        <field name="name">Apuração do Resultado do Exercicio</field>
+        <field name="parent_id" ref="l10n_br_coa_eiras.eiras_group_3_8_1" />
+    </record>
+
+
+</odoo>

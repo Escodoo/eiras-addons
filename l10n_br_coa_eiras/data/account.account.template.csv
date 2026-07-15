@@ -1,0 +1,321 @@
+id,code,name,note,account_type,reconcile,chart_template_id:id
+account_template_eiras_1_1_1_01_0001,1.1.1.01.0001,Caixa,,asset_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_1_03_9001,1.1.1.03.9001,Transferencia de Liquidez,,asset_current,1,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_01_0003,1.1.2.01.0003,Clientes a Receber,,asset_receivable,1,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_08_0001,1.1.2.08.0001,Cheques em Cobranc,,asset_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_14_0001,1.1.2.14.0001,Visanet - VisaElectron,,asset_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_14_0004,1.1.2.14.0004,Redecard - Redeshop,,asset_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_14_0008,1.1.2.14.0008,Adm. de Cartoes a Receber,,asset_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_14_0009,1.1.2.14.0009,Cartões Diners,,asset_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_21_0007,1.1.2.21.0007,Creditos com Terceiros,,asset_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_21_0010,1.1.2.21.0010,Valores a Regularizar,,asset_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_21_0012,1.1.2.21.0012,Outros Créditos,,asset_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_28_0001,1.1.2.28.0001,Adiantamentos a Fornecedores,,asset_current,1,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_29_0001,1.1.2.29.0001,Adiantamentos a Terceiros,,asset_current,1,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_30_0001,1.1.2.30.0001,Adiantamentos para Viagens,,asset_current,1,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_30_0004,1.1.2.30.0004,Adiantamentos para Despesas,,asset_current,1,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_30_0007,1.1.2.30.0007,Adiantamentos para Salarios,,asset_current,1,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_30_0010,1.1.2.30.0010,Adiantamentos para 13o. Salario,,asset_current,1,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_30_0013,1.1.2.30.0013,Adiantamentos para Ferias,,asset_current,1,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_30_0016,1.1.2.30.0016,Emprestimos a Empregados,,asset_current,1,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_30_0017,1.1.2.30.0017,Adiantamentos a Empregados,,asset_current,1,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_30_0019,1.1.2.30.0019,Adiantamentos Vale Compra,,asset_current,1,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_31_0001,1.1.2.31.0001,I.R.R.F. a Compensar,,asset_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_31_0025,1.1.2.31.0025,Inss a Recuperar,,asset_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_31_0052,1.1.2.31.0052,Simples Nacional a Recuperar,,asset_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_31_0053,1.1.2.31.0053,I.S.S.Q.N. a Compensar,,asset_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_31_0054,1.1.2.31.0054,Retenção Inss a Compensar,,asset_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_31_0055,1.1.2.31.0055,Retenção PIS a Compensar,,asset_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_31_0056,1.1.2.31.0056,Retenção Cofins a Compensar,,asset_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_31_0057,1.1.2.31.0057,Retenção Csll a Compensar,,asset_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_2_31_0058,1.1.2.31.0058,ICMS a Recuperar,,asset_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_3_01_0001,1.1.3.01.0001,Mercadorias para Revenda,,asset_non_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_3_01_0002,1.1.3.01.0002,Material para Obra,,asset_non_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_1_3_01_0003,1.1.3.01.0003,Material para Manutenção,,asset_non_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_1_10_0001,1.2.1.10.0001,Conta Corrente de Socio,,asset_non_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_1_10_0002,1.2.1.10.0002,Créditos a Receber de Audacter Obras Eireli,,asset_non_current,1,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_1_10_0003,1.2.1.10.0003,Créditos a Receber de Obras Express Eireli,,asset_non_current,1,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_1_10_0004,1.2.1.10.0004,Créditos a Receber de Eiras Ind. e Com. Pre Moldados Eireli,,asset_non_current,1,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_1_10_0005,1.2.1.10.0005,Créditos a Receber de Ouro Locações Ltda.,,asset_non_current,1,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_1_20_0001,1.2.1.20.0001,Titulos de Capitalização,,asset_non_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_1_20_0002,1.2.1.20.0002,Aplicações em Conta Corrente,,asset_non_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_2_10_0001,1.2.2.10.0001,Consorcios,,asset_non_current,1,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_3_01_0001,1.2.3.01.0001,Terrenos,,asset_fixed,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_3_02_0001,1.2.3.02.0001,Edificacoes e Construcoes,,asset_fixed,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_3_02_0004,1.2.3.02.0004,(-) Deprec. Acum. Edificacoes e Constr.,,expense_depreciation,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_3_04_0001,1.2.3.04.0001,Maquinas e Equipamentos,,asset_fixed,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_3_04_0006,1.2.3.04.0006,(-)Deprec.Acum.Maquinas e Equipamentos,,expense_depreciation,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_3_05_0001,1.2.3.05.0001,Equipamentos de Informatica,,asset_fixed,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_3_05_0004,1.2.3.05.0004,(-) Deprec.Acum.Equip.Informatica,,expense_depreciation,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_3_06_0001,1.2.3.06.0001,Moveis e Utensilios,,asset_fixed,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_3_06_0004,1.2.3.06.0004,(-) Deprec.Acum.Moveis e Utensilios,,expense_depreciation,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_3_07_0001,1.2.3.07.0001,Ferramentas,,asset_fixed,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_3_07_0004,1.2.3.07.0004,(-) Deprec. Acum. Ferramentas,,expense_depreciation,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_3_08_0001,1.2.3.08.0001,Veiculos,,asset_fixed,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_3_08_0004,1.2.3.08.0004,Valor Residual Garantido,,asset_fixed,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_3_08_0007,1.2.3.08.0007,Veiculo Recebido em Arrendamento,,asset_fixed,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_3_08_0010,1.2.3.08.0010,(-) Depreciacao Acumulada Veiculos,,expense_depreciation,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_3_09_0001,1.2.3.09.0001,Benfeitorias em Imoveis de Terceiros,,asset_fixed,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_3_09_0004,1.2.3.09.0004,(-) Amort. Acum.Benfeit.Imoveis Terc.,,expense_depreciation,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_3_10_0001,1.2.3.10.0001,Marcas e Patentes,,asset_fixed,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_3_10_0002,1.2.3.10.0002,Linhas Telefonicas,,asset_fixed,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_3_11_0001,1.2.3.11.0001,Construções em Andamento,,asset_fixed,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_3_12_0001,1.2.3.12.0001,Equipamentos Esportivos,,asset_fixed,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_2_3_12_0002,1.2.3.12.0002,(-) Deprec. Acum. Equip. Esportivos,,expense_depreciation,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_1_3_1_01_0016,1.3.1.01.0016,Bens Recebidos em Comodato,,asset_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_01_0001,2.1.1.01.0001,Duplicatas a Pagar,,liability_payable,1,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_05_0001,2.1.1.05.0001,Salarios a Pagar,,liability_current,1,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_05_0004,2.1.1.05.0004,Pro Labore a Pagar,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_05_0005,2.1.1.05.0005,Autônomos a Pagar,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_05_0007,2.1.1.05.0007,13o. Salario a Pagar,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_05_0010,2.1.1.05.0010,Pensao Alimenticia a Pagar,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_05_0013,2.1.1.05.0013,Rescisoes/Indenizacoes a Pagar,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_05_0016,2.1.1.05.0016,Ferias a Pagar,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_05_0019,2.1.1.05.0019,Participacao s/ Lucros,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_06_0001,2.1.1.06.0001,I.C.M.S. a Recolher,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_06_0007,2.1.1.06.0007,I.S.S.Q.N. a Recolher,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_06_0014,2.1.1.06.0014,Cofins a Recolher,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_06_0015,2.1.1.06.0015,PIS a Recolher,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_06_0016,2.1.1.06.0016,I.R.R.F. a Recolher,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_06_0017,2.1.1.06.0017,IRPJ a Recolher,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_06_0018,2.1.1.06.0018,CSLL a Recolher,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_06_0025,2.1.1.06.0025,I.N.S.S. a Recolher,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_06_0028,2.1.1.06.0028,F.G.T.S. a Recolher,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_06_0031,2.1.1.06.0031,Imposto Unificado Simples a Recolher,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_06_0035,2.1.1.06.0035,Contrib. Sindical a Recolher,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_06_0038,2.1.1.06.0038,Cont. Confederativa a Recolher,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_06_0041,2.1.1.06.0041,Cont.Assistencial a Recolher,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_06_0042,2.1.1.06.0042,Retenção Fonte CSLL/COFINS/PIS,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_06_0047,2.1.1.06.0047,Simples Nacional a Recolher,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_06_0048,2.1.1.06.0048,Inss S/ Faturamento - Desoneração - a Recolher,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_06_0049,2.1.1.06.0049,Parcelamentos - RFB,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_08_0007,2.1.1.08.0007,Creditos de Terceiros,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_08_0009,2.1.1.08.0009,Adiantamento p/Futuro Aumento de Capital,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_09_0002_1,2.1.1.09.0002.1,(-) Juros a Incorrer Financiamentos a Pagar,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_09_0002_2,2.1.1.09.0002.2,Financiamentos a Pagar,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_09_0003_1,2.1.1.09.0003.1,(-) Juros a Incorrer Banco Bradesco S.A.,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_09_0003_2,2.1.1.09.0003.2,Banco Bradesco S.A.,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_09_0004_1,2.1.1.09.0004.1,(-) Juros a Incorrer Banco do Brasil S/A,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_09_0004_2,2.1.1.09.0004.2,Banco do Brasil S/A,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_09_0005,2.1.1.09.0005,Consórcios a Pagar,,liability_current,1,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_09_0006,2.1.1.09.0006,Caixa Econômica Federal,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_09_0007_1,2.1.1.09.0007.1,(-) Juros a Incorrer Banco Santander Brasil S/A,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_09_0007_2,2.1.1.09.0007.2,Banco Santander Brasil S/A,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_09_0008_1,2.1.1.09.0008.1,(-) Juros a Incorrer Banco Itau Unibanco S/A,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_09_0008_2,2.1.1.09.0008.2,Banco Itau Unibanco S/A,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_09_0010,2.1.1.09.0010,Créditos no Exterior a Pagar,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_09_0011_1,2.1.1.09.0011.1,(-) Juros a Incorrer,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_09_0011_2,2.1.1.09.0011.2,Empréstimo bancário tomado,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_17_0001,2.1.1.17.0001,Contas a Pagar,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_17_0046,2.1.1.17.0046,Creditos de Terceiros,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_17_0061,2.1.1.17.0061,Lucros e Dividendos a Pagar,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_17_0075,2.1.1.17.0075,Valores a Regularizar,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_22_0001,2.1.1.22.0001,Provisao p/ Ferias e Encargos,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_22_0002,2.1.1.22.0002,Provisao Inss s/ Ferias,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_22_0003,2.1.1.22.0003,Provisao Fgts s/ Ferias,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_22_0004,2.1.1.22.0004,Prov.p/13o.Salarios e Encargos,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_22_0005,2.1.1.22.0005,Provisão Inss s/ 13o.Salarios,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_1_1_22_0006,2.1.1.22.0006,Provisão Fgts s/ 13o.Salarios,,liability_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_2_1_01_0001_1,2.2.1.01.0001.1,(-) Juros a Incorrer Financiamentos a Pagar LP,,liability_non_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_2_1_01_0001_2,2.2.1.01.0001.2,Financiamentos a Pagar LP,,liability_non_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_2_1_01_0002,2.2.1.01.0002,Consórcios a Pagar LP,,liability_non_current,1,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_2_1_01_0003,2.2.1.01.0003,Créditos no Exterior a Pagar LP,,liability_non_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_2_1_02_0001,2.2.1.02.0001,Conta Corrente de Sócios,,liability_non_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_2_1_02_0002,2.2.1.02.0002,Obras Express Ltda.,,liability_non_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_2_1_02_0003,2.2.1.02.0003,Eiras Ind. Com. Pre Moldados,,liability_non_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_2_1_02_0004,2.2.1.02.0004,Audacter Obras Ltda.,,liability_non_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_2_1_02_0005,2.2.1.02.0005,Eiras Express Mats. Construção Ltda.,,liability_non_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_3_1_01_0001,2.3.1.01.0001,Receita de Exercicios Futuros,,liability_non_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_3_1_02_0001,2.3.1.02.0001,(-)Custos/Despesas de Exercicios Futuro,,liability_non_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_4_1_01_0001,2.4.1.01.0001,Capital Social,,equity,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_4_1_02_0001,2.4.1.02.0001,(-) Capital a Integralizar,,equity,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_4_1_03_0001,2.4.1.03.0001,Adiantamento p/ aumento de Capital,,equity,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_4_6_01_0001,2.4.6.01.0001,Lucros Acumulados,,equity,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_4_6_02_0001,2.4.6.02.0001,Ajustes Credores Periodos Anteriores,,equity,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_4_6_03_0001,2.4.6.03.0001,Lucro Líquido do Ano,,equity,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_4_6_04_0001,2.4.6.04.0001,Prejuizos Acumulados,,equity,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_4_6_05_0001,2.4.6.05.0001,(-) Ajustes Devedores Period. Anteriores,,equity,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_4_6_06_0001,2.4.6.06.0001,(-) Prejuizo Líquido do Ano,,equity,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_4_6_07_0001,2.4.6.07.0001,(-) Antecipacao de Lucros,,equity,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_2_6_1_01_0017,2.6.1.01.0017,Bens em Comodato a Devolve,,liability_non_current,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_1_1_01_0001,3.1.1.01.0001,Revenda de Mercadorias,,income,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_1_1_07_0001,3.1.1.07.0001,Venda de Servicos,,income,1,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_1_2_01_0001,3.1.2.01.0001,Vendas Canceladas - Comercio,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_1_2_01_0003,3.1.2.01.0003,Vendas Canceladas - Servicos,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_1_2_04_0001,3.1.2.04.0001,Abatimentos s/ Vendas,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_1_2_04_0002,3.1.2.04.0002,Abatimentos s/ Vendas de Servicos,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_1_2_07_0001,3.1.2.07.0001,Devolucao de Vendas,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_1_2_10_0002,3.1.2.10.0002,ICMS - Imposto s/ Circulacao de Mercad.,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_1_2_10_0003,3.1.2.10.0003,ISSQN - Imposto s/ Servicos,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_1_2_10_0004,3.1.2.10.0004,PIS sobre Faturamento,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_1_2_10_0005,3.1.2.10.0005,COFINS sobre Faturamento,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_1_2_10_0007,3.1.2.10.0007,Simples Nacional,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_1_2_10_0008,3.1.2.10.0008,I.C.M.S. - Substituicao Tributaria,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_1_2_10_0009,3.1.2.10.0009,(+) I.C.M.S. s/ Devolucao de Venda,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_1_2_10_0010,3.1.2.10.0010,Inss S/ Receita Bruta - Desoneração,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_01_0001,3.2.2.01.0001,Custos dos Servicos Prestados,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_01_0002,3.2.2.01.0002,Materiais Aplicados na Prod dos Servicos,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_01_0004,3.2.2.01.0004,Outros Servicos Prestados por Terceiros,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_01_0009,3.2.2.01.0009,(+) Recuperacao de Custos,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_02_0001,3.2.2.02.0001,Salarios,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_02_0002,3.2.2.02.0002,Ferias,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_02_0003,3.2.2.02.0003,13o Salarios,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_02_0004,3.2.2.02.0004,Previdencia Social,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_02_0005,3.2.2.02.0005,FGTS,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_02_0006,3.2.2.02.0006,Aviso Previo e Indenizacoes,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_02_0007,3.2.2.02.0007,Premios de Seguros,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_02_0008,3.2.2.02.0008,Assistencia Medica e Odontologica,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_02_0009,3.2.2.02.0009,Refeições,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_02_0010,3.2.2.02.0010,Cesta Basica,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_02_0011,3.2.2.02.0011,Auxilio Refeição / Alimentação,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_02_0012,3.2.2.02.0012,Auxilio Mobilidade,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_02_0013,3.2.2.02.0013,Exame Medico,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_02_0014,3.2.2.02.0014,Ajuda de Custo,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_07_0001,3.2.2.07.0001,Servicos de Terceiros - Pessoa Fisica,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_07_0002,3.2.2.07.0002,Servicos de Terceiros - Pessoa Juridica,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_07_0003,3.2.2.07.0003,Agua,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_07_0004,3.2.2.07.0004,Energia Eletrica,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_07_0005,3.2.2.07.0005,Telefone e Internet,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_07_0006,3.2.2.07.0006,Premios de Seguros,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_07_0007,3.2.2.07.0007,Manutenção de Veiculos e Maquinas,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_07_0008,3.2.2.07.0008,Combustiveis e Lubrificantes,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_07_0009,3.2.2.07.0009,Equipamentos de Seguranca,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_07_0010,3.2.2.07.0010,Fretes e Carretos,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_07_0011,3.2.2.07.0011,Aluguel de Imoveis e Alojamentos,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_07_0012,3.2.2.07.0012,Aluguel de Maquinas e Equipamentos,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_07_0013,3.2.2.07.0013,Aluguel de Veiculos,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_07_0014,3.2.2.07.0014,Manutenção de Alojamentos,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_07_0015,3.2.2.07.0015,Impostos e Taxas de Obras,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_2_07_0016,3.2.2.07.0016,Depreciações,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_4_01_0001,3.2.4.01.0001,Custos das Mercadorias Vendidas,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_2_4_01_0007,3.2.4.01.0007,(+) Mercadorias Recebidas em Doação,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_1_01_0001,3.3.1.01.0001,Salarios,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_1_01_0002,3.3.1.01.0002,Ferias,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_1_01_0003,3.3.1.01.0003,13o. Salarios,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_1_01_0004,3.3.1.01.0004,Previdencia Social,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_1_01_0005,3.3.1.01.0005,FGTS,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_1_01_0006,3.3.1.01.0006,Aviso Previo e Indenizacoes,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_1_01_0007,3.3.1.01.0007,Premios de Seguros,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_1_01_0008,3.3.1.01.0008,Assistencia Medica,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_1_01_0009,3.3.1.01.0009,Vale-Refeicao,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_1_01_0010,3.3.1.01.0010,(+) Recuperacao de Vale-Refeicao,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_1_01_0011,3.3.1.01.0011,Vale-Transporte,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_1_01_0012,3.3.1.01.0012,(+) Recuperacao de Vale-Transporte,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_1_01_0013,3.3.1.01.0013,Cesta Basica,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_1_01_0014,3.3.1.01.0014,Exame Medico,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_1_01_0015,3.3.1.01.0015,Convenio Odontologico,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_1_01_0016,3.3.1.01.0016,Convenio Farmacia,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_1_01_0017,3.3.1.01.0017,Cesta de Natal,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_1_01_0018,3.3.1.01.0018,Ajuda de Custo,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_1_01_0019,3.3.1.01.0019,Refeicoes,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_1_01_0027,3.3.1.01.0027,(+) Recuperacao de Despesas,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_1_01_0028,3.3.1.01.0028,Provisoes Trabalhistas,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_1_04_0021,3.3.1.04.0021,Aluguel de Maquinas e Equipamentos,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_1_04_0030,3.3.1.04.0030,Despesas com Administradoras de Cartoes,,expense_direct_cost,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0001,3.3.2.01.0001,Salarios,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0002,3.3.2.01.0002,Ferias,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0003,3.3.2.01.0003,13o. Salarios,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0004,3.3.2.01.0004,Previdencia Social,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0005,3.3.2.01.0005,FGTS,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0006,3.3.2.01.0006,Aviso Previo e Indenizacoes,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0007,3.3.2.01.0007,Premios de Seguros,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0008,3.3.2.01.0008,Assistencia Medica,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0009,3.3.2.01.0009,Vale-Refeicao,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0010,3.3.2.01.0010,(+) Recuperacao de Vale-Refeicao,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0011,3.3.2.01.0011,Vale-Transporte,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0012,3.3.2.01.0012,(+) Recuperacao de Vale-Transporte,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0013,3.3.2.01.0013,Cesta Basica,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0014,3.3.2.01.0014,Exame Medico,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0015,3.3.2.01.0015,Convenio Odontologico,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0016,3.3.2.01.0016,Convenio Farmacia,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0017,3.3.2.01.0017,Cesta de Natal,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0018,3.3.2.01.0018,PIS sobre Folha,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0019,3.3.2.01.0019,Refeicoes,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0020,3.3.2.01.0020,Ajuda de Custo,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0028,3.3.2.01.0028,(+) Recuperacao de Despesas,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0029,3.3.2.01.0029,Provisoes Trabalhistas,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0030,3.3.2.01.0030,Roupas e Uniformes,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_01_0031,3.3.2.01.0031,Ações Trabalhistas,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_05_0001,3.3.2.05.0001,Honorarios da Diretoria,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_05_0002,3.3.2.05.0002,Encargos Sociais,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_05_0003,3.3.2.05.0003,Refeicoes,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_05_0004,3.3.2.05.0004,Ajuda de Custo,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_05_0005,3.3.2.05.0005,Gratificacao a Diretoria,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_05_0006,3.3.2.05.0006,Premios de Seguros,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_05_0007,3.3.2.05.0007,Plano de Saude,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_05_0008,3.3.2.05.0008,Despesas com Viagens,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_05_0009,3.3.2.05.0009,Convenio Farmacia,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_05_0010,3.3.2.05.0010,(+) Recuperacao de Despesas,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0001,3.3.2.08.0001,Serviços Administrativos Prestados Por Terceiros,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0002,3.3.2.08.0002,Outros Servicos Prestados por Terceiros - Geral,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0005,3.3.2.08.0005,Agua,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0006,3.3.2.08.0006,Energia Eletrica,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0007,3.3.2.08.0007,Manutenção e Reparos,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0008,3.3.2.08.0008,Despesas com Condução e Viagens,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0009,3.3.2.08.0009,Despesas com Refeições,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0010,3.3.2.08.0010,Despesas com Comunicacao,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0012,3.3.2.08.0012,Assinaturas e Publicacoes,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0014,3.3.2.08.0014,Impostos e Taxas Diversas,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0015,3.3.2.08.0015,Depreciacoes,,expense_depreciation,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0017,3.3.2.08.0017,Despesas Diversas,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0018,3.3.2.08.0018,Combustíveis e Lubrificantes,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0019,3.3.2.08.0019,Bens de Pequeno Valor,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0021_1,3.3.2.08.0021.1,Aluguel de Imóveis e Alojamento,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0021_2,3.3.2.08.0021.2,Aluguel de Máquinas e Equipamentos,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0023,3.3.2.08.0023,Aluguel de Veículos,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0025,3.3.2.08.0025,Fretes e Carretos,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0030,3.3.2.08.0030,Material de Limpeza e Cozinha,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0033,3.3.2.08.0033,Correio/Cartório,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0034,3.3.2.08.0034,Impressos/Materiais de Escritório,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0036,3.3.2.08.0036,Propaganda e Publicidade,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0039,3.3.2.08.0039,Prêmios de Seguros,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0040,3.3.2.08.0040,Despesas com Sinalizacao,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0041,3.3.2.08.0041,Limpeza e Conservação,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0042,3.3.2.08.0042,Equipamentos de Segurança,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0043,3.3.2.08.0043,(+) Recuperação de Despesas,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_08_0044,3.3.2.08.0044,Reembolso a Terceiros Despesas de Viagens,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_12_0006,3.3.2.12.0006,Contribuicao Sindical,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_12_0014,3.3.2.12.0014,Impostos e Taxas Municipais,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_16_0001,3.3.2.16.0001,Provisoes para Perdas,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_16_0002,3.3.2.16.0002,Provisoes p/ Ajustes ao Valor de Mercado,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_2_16_0003,3.3.2.16.0003,(+) Recuperacao de Provisoes,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_3_01_0001,3.3.3.01.0001,Juros e Multas Pagos,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_3_01_0002,3.3.3.01.0002,Descontos Concedidos,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_3_01_0003,3.3.3.01.0003,Despesas Bancarias,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_3_01_0004,3.3.3.01.0004,Contribuicao CPMF,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_3_01_0005,3.3.3.01.0005,Variacao Monetaria Passiva,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_3_01_0006,3.3.3.01.0006,Variacao Cambial Passiva,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_3_01_0007,3.3.3.01.0007,IRRF sobre Receita Financeira,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_3_01_0008,3.3.3.01.0008,Juros s/ Operações de Crédito,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_3_01_0009,3.3.3.01.0009,(+) Recuperacao de Despesas,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_3_04_0001,3.3.3.04.0001,Juros Recebidos,,income_other,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_3_04_0002,3.3.3.04.0002,Descontos Obtidos,,income_other,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_3_04_0003,3.3.3.04.0003,Variacao Monetaria Ativa,,income_other,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_3_04_0004,3.3.3.04.0004,Variacao Cambial Ativa,,income_other,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_3_04_0005,3.3.3.04.0005,Rendimentos de Aplicacoes Financeiras,,income_other,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_3_04_0006,3.3.3.04.0006,Juros Selic s/ Imposto a Recuperar,,income_other,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_3_04_0007,3.3.3.04.0007,Atualizacao Monetaria,,income_other,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_3_04_0008,3.3.3.04.0008,Resgate de Aplicação Financeira,,income_other,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_3_04_0009,3.3.3.04.0009,Receitas Finanaceiras Consórcio Guararema,,income_other,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_4_01_0001,3.3.4.01.0001,Receitas Eventuais,,income_other,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_4_01_0002,3.3.4.01.0002,Renda Patrimonial,,income_other,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_4_01_0003,3.3.4.01.0003,Outras Receitas Operacionais,,income_other,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_6_01_0001,3.3.6.01.0001,Alugueis Recebidos,,income_other,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_6_01_0002,3.3.6.01.0002,Juros Recebidos,,income_other,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_6_01_0003,3.3.6.01.0003,Descontos Obtidos,,income_other,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_3_6_01_0005,3.3.6.01.0005,Rendas s/ Aplicacoes Financeiras,,income_other,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_4_1_01_0001,3.4.1.01.0001,Receitas com Alienacoes de Investimentos,,income_other,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_4_1_01_0002,3.4.1.01.0002,(-) Custo dos Investimentos Alienados,,income_other,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_4_2_01_0001,3.4.2.01.0001,Receitas com Alienacoes de Imobilizados,,income_other,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_4_2_01_0002,3.4.2.01.0002,(-) Custo de Imobilizados Alienados,,income_other,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_5_1_01_0001,3.5.1.01.0001,Provisao para Contribuicao Social,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_5_2_01_0001,3.5.2.01.0001,Provisao para Imposto de Renda,,expense,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_6_1_01_0001,3.6.1.01.0001,Participacoes de Empregados,,off_balance,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_6_1_02_0001,3.6.1.02.0001,Participacoes de Administradores,,off_balance,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_8_1_01_0001,3.8.1.01.0001,Balanco de Abertura,,off_balance,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_8_1_01_0002,3.8.1.01.0002,Conta de Constituicao p/ Cisao,,off_balance,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_8_1_01_0003,3.8.1.01.0003,Conta de Constituicao p/ Incorporacao,,off_balance,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_8_1_01_0004,3.8.1.01.0004,Resultado do Exercicio,,off_balance,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_8_1_01_0005,3.8.1.01.0005,Resultado do Periodo,,off_balance,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_3_8_1_01_0006,3.8.1.01.0006,Ganho/Perda na Alienacao de Imobilizado,,off_balance,0,l10n_br_coa_eiras.account_template_eiras
+account_template_eiras_999999,999999,Lucros/perdas não distribuídos,,equity_unaffected,0,l10n_br_coa_eiras.account_template_eiras
