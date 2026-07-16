@@ -40,7 +40,20 @@
         <field name="arch" type="xml">
             <field name="product_id" position="after">
                 <field name="description" />
+                <field
+                    name="analytic_account_id"
+                    groups="analytic.group_analytic_accounting"
+                />
             </field>
+            <filter name="start_date" position="after">
+                <filter
+                    name="group_analytic_account"
+                    string="Cost Center"
+                    domain="[]"
+                    context="{'group_by': 'analytic_account_id'}"
+                    groups="analytic.group_analytic_accounting"
+                />
+            </filter>
         </field>
     </record>
 </odoo>

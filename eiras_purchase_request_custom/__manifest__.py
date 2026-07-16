@@ -9,7 +9,7 @@
     "license": "AGPL-3",
     "author": "Escodoo",
     "website": "https://github.com/Escodoo/eiras-addons",
-    "depends": ["purchase_request"],
+    "depends": ["purchase_request", "analytic"],
     "data": [
         "views/purchase_request_view.xml",
     ],

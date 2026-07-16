@@ -1,0 +1,32 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* eiras_purchase_request_custom
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-16 19:28+0000\n"
+"PO-Revision-Date: 2026-07-16 19:28+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: eiras_purchase_request_custom
+#: model:ir.model.fields,field_description:eiras_purchase_request_custom.field_purchase_request__analytic_account_id
+#: model_terms:ir.ui.view,arch_db:eiras_purchase_request_custom.view_purchase_request_search
+msgid "Cost Center"
+msgstr "Centro de Custo"
+
+#. module: eiras_purchase_request_custom
+#: model:ir.model,name:eiras_purchase_request_custom.model_purchase_request
+msgid "Purchase Request"
+msgstr "Requisição de compra"
+
+#. module: eiras_purchase_request_custom
+#: model:ir.model.fields,field_description:eiras_purchase_request_custom.field_purchase_request__smart_search
+msgid "Smart Search"
+msgstr ""
