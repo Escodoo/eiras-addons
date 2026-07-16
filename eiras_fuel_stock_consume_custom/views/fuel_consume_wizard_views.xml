@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    Copyright 2026 - TODAY, Wesley Oliveira <wesley.oliveira@escodoo.com.br>
+    License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
+-->
+<odoo>
+    <record id="view_fuel_consume_wizard_form_inherit_register" model="ir.ui.view">
+        <field name="name">fuel.consume.wizard.form.inherit.register</field>
+        <field name="model">fuel.consume.wizard</field>
+        <field
+            name="inherit_id"
+            ref="fuel_stock_consume.view_fuel_consume_wizard_form"
+        />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='odometer_value']" position="after">
+                <field name="initial_register_value" />
+                <field name="final_register_value" />
+            </xpath>
+        </field>
+    </record>
+</odoo>
