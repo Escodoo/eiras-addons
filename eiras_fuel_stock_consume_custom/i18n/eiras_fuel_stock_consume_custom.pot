@@ -22,6 +22,16 @@ msgid "Final Register Value"
 msgstr ""
 
 #. module: eiras_fuel_stock_consume_custom
+#: model:ir.model,name:eiras_fuel_stock_consume_custom.model_fuel_consume_confirm_wizard
+msgid "Fuel Consumption Confirmation Wizard"
+msgstr ""
+
+#. module: eiras_fuel_stock_consume_custom
+#: model:ir.model,name:eiras_fuel_stock_consume_custom.model_fuel_consume_wizard
+msgid "Fuel Consumption Wizard"
+msgstr ""
+
+#. module: eiras_fuel_stock_consume_custom
 #: model:ir.model.fields,field_description:eiras_fuel_stock_consume_custom.field_fuel_consume_confirm_wizard__initial_register_value
 #: model:ir.model.fields,field_description:eiras_fuel_stock_consume_custom.field_fuel_consume_wizard__initial_register_value
 #: model:ir.model.fields,field_description:eiras_fuel_stock_consume_custom.field_stock_move__initial_register_value
@@ -35,9 +45,20 @@ msgid "Register"
 msgstr ""
 
 #. module: eiras_fuel_stock_consume_custom
+#: model:ir.model,name:eiras_fuel_stock_consume_custom.model_stock_move
+msgid "Stock Move"
+msgstr ""
+
+#. module: eiras_fuel_stock_consume_custom
+#. odoo-python
 #: code:addons/eiras_fuel_stock_consume_custom/models/stock_picking.py:0
 #: code:addons/eiras_fuel_stock_consume_custom/wizards/fuel_consume_wizard.py:0
 #, python-format
 msgid ""
 "The final register value must be greater than the initial register value."
+msgstr ""
+
+#. module: eiras_fuel_stock_consume_custom
+#: model:ir.model,name:eiras_fuel_stock_consume_custom.model_stock_picking
+msgid "Transfer"
 msgstr ""
