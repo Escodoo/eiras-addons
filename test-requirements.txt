@@ -1,0 +1,2 @@
+# fuel_stock_consume dependency
+odoo-addon-fuel_stock_consume @ git+https://github.com/Escodoo/fleet-addons.git@16.0#subdirectory=setup/fuel_stock_consume
