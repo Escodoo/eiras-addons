@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+# 	* eiras_purchase_request_custom
 #
 msgid ""
 msgstr ""
@@ -11,3 +12,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+
+#. module: eiras_purchase_request_custom
+#: model:ir.model.fields,field_description:eiras_purchase_request_custom.field_purchase_request__analytic_account_id
+#: model_terms:ir.ui.view,arch_db:eiras_purchase_request_custom.view_purchase_request_search
+msgid "Cost Center"
+msgstr ""
+
+#. module: eiras_purchase_request_custom
+#: model:ir.model,name:eiras_purchase_request_custom.model_purchase_request
+msgid "Purchase Request"
+msgstr ""
