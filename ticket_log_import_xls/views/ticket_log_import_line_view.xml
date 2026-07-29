@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_ticket_log_import_line_tree" model="ir.ui.view">
+        <field name="name">ticket.log.import.line.tree</field>
+        <field name="model">ticket.log.import.line</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="transaction_date" />
+                <field name="import_type" />
+                <field name="license_plate" />
+                <field name="driver_name" />
+                <field name="product_name" />
+                <field name="quantity" />
+                <field name="price_unit" />
+                <field name="total_value" />
+                <field name="purchase_order_id" />
+                <field name="source_hash" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_ticket_log_import_line" model="ir.actions.act_window">
+        <field name="name">Ticket Log Import Lines</field>
+        <field name="res_model">ticket.log.import.line</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <menuitem
+        id="menu_ticket_log_import_line"
+        action="action_ticket_log_import_line"
+        parent="purchase.menu_procurement_management"
+        sequence="90"
+        name="Ticket Log Import History"
+    />
+</odoo>
