@@ -6,7 +6,7 @@
     "summary": """
         Adds construction site (Obra) data to invoices and sends it in the
         Focus NFe NFSe Municipal payload""",
-    "version": "16.0.1.0.0",
+    "version": "16.0.1.1.0",
     "license": "AGPL-3",
     "author": "Escodoo",
     "website": "https://github.com/Escodoo/eiras-addons",

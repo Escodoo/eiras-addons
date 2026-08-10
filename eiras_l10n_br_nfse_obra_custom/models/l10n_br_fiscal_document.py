@@ -23,4 +23,5 @@ class L10nBrFiscalDocument(models.Model):
         result = super()._prepare_dados_servico()
         if self.obra_id:
             result.update(self.obra_id._prepare_service_address())
+            result["obra_data"] = self.obra_id._prepare_obra_data()
         return result
