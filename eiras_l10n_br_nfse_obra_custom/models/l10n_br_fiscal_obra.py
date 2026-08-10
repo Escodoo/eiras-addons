@@ -37,6 +37,16 @@ class L10nBrFiscalObra(models.Model):
         domain="[('state_id', '=', state_id)]",
     )
     zip = fields.Char()
+    code = fields.Char()
+    date_start = fields.Date()
+    local = fields.Selection(
+        selection=[
+            ("1", "Execução no município do prestador"),
+            ("2", "Execução fora do município do prestador"),
+            ("3", "Execução no exterior"),
+        ],
+        default="1",
+    )
 
     def _prepare_service_address(self):
         self.ensure_one()
@@ -50,4 +60,23 @@ class L10nBrFiscalObra(models.Model):
             ),
             "obra_uf": self.state_id.code or "",
             "obra_cep": (misc.punctuation_rm(self.zip).zfill(8) if self.zip else ""),
+        }
+
+    def _prepare_obra_data(self):
+        self.ensure_one()
+        return {
+            "cei_cno": misc.punctuation_rm(self.cno_cei) if self.cno_cei else None,
+            "codigo": self.code or None,
+            "data_inicio": (
+                self.date_start.strftime("%d/%m/%Y") if self.date_start else None
+            ),
+            "endereco": {
+                "logradouro": self.street_name or None,
+                "numero": self.street_number or None,
+                "complemento": self.street_number2 or None,
+                "bairro": self.district or None,
+                "cep": (misc.punctuation_rm(self.zip).zfill(8) if self.zip else None),
+                "epr_ext": None,
+            },
+            "local": int(self.local) if self.local else 1,
         }

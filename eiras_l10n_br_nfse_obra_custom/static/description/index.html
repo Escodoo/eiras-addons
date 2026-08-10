@@ -375,11 +375,20 @@ ul.auto-toc {
 !! source digest: sha256:d07947714a2afca19b107aed7f50d43c266b73b3a8ca1faa170d42ffca1f409a
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 <p><a class="reference external image-reference" href="https://odoo-community.org/page/development-status"><img alt="Beta" src="https://img.shields.io/badge/maturity-Beta-yellow.png" /></a> <a class="reference external image-reference" href="http://www.gnu.org/licenses/agpl-3.0-standalone.html"><img alt="License: AGPL-3" src="https://img.shields.io/badge/license-AGPL--3-blue.png" /></a> <a class="reference external image-reference" href="https://github.com/Escodoo/eiras-addons/tree/16.0/eiras_l10n_br_nfse_obra_custom"><img alt="Escodoo/eiras-addons" src="https://img.shields.io/badge/github-Escodoo%2Feiras--addons-lightgray.png?logo=github" /></a></p>
-<p>This module adds an “Obra” (construction site) record with a CNO/CEI code
-and address. The Obra can be selected on the customer invoice and its
-address is sent as the service-provision address (<tt class="docutils literal">servico.endereco</tt>) in
-the NFSe Municipal payload sent to Focus NFe, as required by some
-municipalities for civil construction services.</p>
+<p>This module adds an “Obra” (construction site) record with a CNO/CEI code,
+an internal code, a start date, a geographic scope (“local”) and an
+address. The Obra can be selected on the customer invoice, and its data is
+sent to Focus NFe in the NFSe Municipal payload as required by some
+municipalities for civil construction services:</p>
+<ul class="simple">
+<li>The address is sent as the service-provision address
+(<tt class="docutils literal">servico.endereco</tt>).</li>
+<li>The CNO/CEI, internal code, start date, address and geographic scope are
+sent in the top-level <tt class="docutils literal">obra</tt> object (<tt class="docutils literal">obra.cei_cno</tt>, <tt class="docutils literal">obra.codigo</tt>,
+<tt class="docutils literal">obra.data_inicio</tt>, <tt class="docutils literal">obra.endereco</tt> and <tt class="docutils literal">obra.local</tt>), which some
+municipalities require to authorize NFSe with INSS retention for civil
+construction services.</li>
+</ul>
 <p><strong>Table of contents</strong></p>
 <div class="contents local topic" id="contents">
 <ul class="simple">

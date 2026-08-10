@@ -10,6 +10,7 @@
         <field name="arch" type="xml">
             <tree>
                 <field name="name" />
+                <field name="code" />
                 <field name="cno_cei" />
                 <field name="street_name" />
                 <field name="city_id" />
@@ -33,6 +34,9 @@
                             />
                             <field name="cno_cei" />
                             <field name="civil_construction_art" />
+                            <field name="code" />
+                            <field name="date_start" />
+                            <field name="local" />
                         </group>
                         <group>
                             <field name="street_name" />

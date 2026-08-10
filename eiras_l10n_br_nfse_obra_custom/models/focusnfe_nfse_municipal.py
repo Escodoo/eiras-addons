@@ -20,3 +20,10 @@ class FocusnfeNfse(models.AbstractModel):
                 "cep": service.get("obra_cep"),
             }
         return result
+
+    def _prepare_payload(self, rps, service, recipient, company):
+        vals = super()._prepare_payload(rps, service, recipient, company)
+        obra_data = (service.get("service") or {}).get("obra_data")
+        if obra_data:
+            vals["obra"] = obra_data
+        return vals
