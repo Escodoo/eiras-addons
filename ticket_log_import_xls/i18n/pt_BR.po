@@ -404,6 +404,11 @@ msgid "Vehicle"
 msgstr "Veículo"
 
 #. module: ticket_log_import_xls
+#: model_terms:ir.ui.view,arch_db:ticket_log_import_xls.view_ticket_log_import_line_tree
+msgid "Vehicle Code"
+msgstr "Código do Veículo"
+
+#. module: ticket_log_import_xls
 #: model:ir.model.fields,field_description:ticket_log_import_xls.field_ticket_log_wizard__partner_id
 msgid "Vendor"
 msgstr "Fornecedor"

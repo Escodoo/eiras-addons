@@ -4,10 +4,12 @@
         <field name="name">ticket.log.import.line.tree</field>
         <field name="model">ticket.log.import.line</field>
         <field name="arch" type="xml">
-            <tree>
+            <tree create="0">
                 <field name="transaction_date" />
                 <field name="import_type" />
                 <field name="license_plate" />
+                <field name="vehicle_id" string="Vehicle Code" />
+                <field name="analytic_account_id" />
                 <field name="driver_name" />
                 <field name="product_name" />
                 <field name="quantity" />
