@@ -6,11 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-23 21:01+0000\n"
-"PO-Revision-Date: 2026-07-23 21:01+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -19,27 +16,27 @@ msgstr ""
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__civil_construction_art
 msgid "ART"
-msgstr "ART"
+msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__active
 msgid "Active"
-msgstr "Ativo"
+msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__cno_cei
 msgid "CNO/CEI"
-msgstr "CNO/CEI"
+msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,help:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__cno_cei
 msgid "Cadastro Nacional de Obras / Cadastro Específico do INSS"
-msgstr "Cadastro Nacional de Obras / Cadastro Específico do INSS"
+msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__city_id
 msgid "City"
-msgstr "Cidade"
+msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__code
@@ -49,22 +46,22 @@ msgstr ""
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__company_id
 msgid "Company"
-msgstr "Empresa"
+msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__street_number2
 msgid "Complement"
-msgstr "Complemento"
+msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__create_uid
 msgid "Created by"
-msgstr "Criado por"
+msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__create_date
 msgid "Created on"
-msgstr "Criado em"
+msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__date_start
@@ -74,12 +71,12 @@ msgstr ""
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__display_name
 msgid "Display Name"
-msgstr "Nome de Exibição"
+msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__district
 msgid "District"
-msgstr "Bairro"
+msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields.selection,name:eiras_l10n_br_nfse_obra_custom.selection__l10n_br_fiscal_obra__local__2
@@ -104,27 +101,27 @@ msgstr ""
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model,name:eiras_l10n_br_nfse_obra_custom.model_focusnfe_nfse
 msgid "FocusNFE NFSE"
-msgstr "FocusNFE NFSE"
+msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra____last_update
 msgid "Last Modified on"
-msgstr "Última Modificação em"
+msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__write_uid
 msgid "Last Updated by"
-msgstr "Última Atualização por"
+msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__write_date
 msgid "Last Updated on"
-msgstr "Última Atualização em"
+msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__local
@@ -134,12 +131,12 @@ msgstr ""
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__name
 msgid "Name"
-msgstr "Nome"
+msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__street_number
 msgid "Number"
-msgstr "Número"
+msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_account_bank_statement_line__obra_id
@@ -147,36 +144,30 @@ msgstr "Número"
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_account_payment__obra_id
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_document__obra_id
 msgid "Obra"
-msgstr "Obra"
+msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model,name:eiras_l10n_br_nfse_obra_custom.model_l10n_br_fiscal_obra
 msgid "Obra (Construction Site)"
-msgstr "Obra"
+msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.actions.act_window,name:eiras_l10n_br_nfse_obra_custom.l10n_br_fiscal_obra_action
 #: model:ir.ui.menu,name:eiras_l10n_br_nfse_obra_custom.l10n_br_fiscal_obra_menu
 msgid "Obras"
-msgstr "Obras"
+msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__state_id
 msgid "State"
-msgstr "Estado"
+msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__street_name
 msgid "Street"
-msgstr "Logradouro"
+msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__zip
 msgid "Zip"
-msgstr "CEP"
-
-#~ msgid "Informações de exportação"
-#~ msgstr "Informações de exportação"
-
-#~ msgid "Smart Search"
-#~ msgstr "Busca Inteligente"
+msgstr ""
