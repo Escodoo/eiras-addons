@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    Copyright 2026 - TODAY, Escodoo
+    License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
+-->
+<odoo>
+    <record id="l10n_br_fiscal_obra_view_tree" model="ir.ui.view">
+        <field name="name">l10n_br_fiscal.obra.tree</field>
+        <field name="model">l10n_br_fiscal.obra</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="code" />
+                <field name="cno_cei" />
+                <field name="street_name" />
+                <field name="city_id" />
+                <field name="state_id" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="l10n_br_fiscal_obra_view_form" model="ir.ui.view">
+        <field name="name">l10n_br_fiscal.obra.form</field>
+        <field name="model">l10n_br_fiscal.obra</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name" />
+                            <field
+                                name="company_id"
+                                groups="base.group_multi_company"
+                            />
+                            <field name="cno_cei" />
+                            <field name="civil_construction_art" />
+                            <field name="code" />
+                            <field name="date_start" />
+                            <field name="local" />
+                        </group>
+                        <group>
+                            <field name="street_name" />
+                            <field name="street_number" />
+                            <field name="street_number2" />
+                            <field name="district" />
+                            <field name="state_id" />
+                            <field name="city_id" />
+                            <field name="zip" />
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="l10n_br_fiscal_obra_action" model="ir.actions.act_window">
+        <field name="name">Obras</field>
+        <field name="res_model">l10n_br_fiscal.obra</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem
+        id="l10n_br_fiscal_obra_menu"
+        name="Obras"
+        action="l10n_br_fiscal_obra_action"
+        parent="l10n_br_fiscal.others_config_menu"
+        sequence="30"
+    />
+</odoo>

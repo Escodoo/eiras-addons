@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    Copyright 2026 - TODAY, Escodoo
+    License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
+-->
+<odoo>
+    <record id="view_move_form_obra" model="ir.ui.view">
+        <field name="name">account.move.form (in eiras_l10n_br_nfse_obra_custom)</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="l10n_br_account.invoice_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//div[@name='journal_div']" position="after">
+                <field name="obra_id" domain="[('company_id', '=', company_id)]" />
+            </xpath>
+        </field>
+    </record>
+</odoo>
