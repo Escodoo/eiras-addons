@@ -12,6 +12,7 @@
     "website": "https://github.com/Escodoo/eiras-addons",
     "depends": [
         "l10n_br_account",
+        "l10n_br_purchase",
         "l10n_br_nfse_focus",
     ],
     "data": [
