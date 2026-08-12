@@ -12,6 +12,15 @@ class L10nBrFiscalDocument(models.Model):
         string="Obra",
         domain="[('company_id', '=', company_id)]",
     )
+    obra_send_data = fields.Boolean(
+        string="Enviar Dados da Obra",
+        default=True,
+        help="Alguns itens de serviço/municípios rejeitam o bloco 'obra' no "
+        "envio ao Focus NFe, retornando 'Reg50 - O Serviço Informado Não "
+        "Aceita Dados de Obra' (ex.: item de lista de serviço 7.10). "
+        "Desmarque esta opção nesses casos para continuar enviando o "
+        "endereço da Obra em 'servico.endereco', sem enviar o bloco 'obra'.",
+    )
 
     @api.onchange("obra_id")
     def _onchange_obra_id(self):
@@ -23,5 +32,6 @@ class L10nBrFiscalDocument(models.Model):
         result = super()._prepare_dados_servico()
         if self.obra_id:
             result.update(self.obra_id._prepare_service_address())
-            result["obra_data"] = self.obra_id._prepare_obra_data()
+            if self.obra_send_data:
+                result["obra_data"] = self.obra_id._prepare_obra_data()
         return result
