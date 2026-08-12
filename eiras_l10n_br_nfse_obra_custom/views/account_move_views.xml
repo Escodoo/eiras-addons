@@ -11,6 +11,10 @@
         <field name="arch" type="xml">
             <xpath expr="//div[@name='journal_div']" position="after">
                 <field name="obra_id" domain="[('company_id', '=', company_id)]" />
+                <field
+                    name="obra_send_data"
+                    attrs="{'invisible': [('obra_id', '=', False)]}"
+                />
             </xpath>
         </field>
     </record>
