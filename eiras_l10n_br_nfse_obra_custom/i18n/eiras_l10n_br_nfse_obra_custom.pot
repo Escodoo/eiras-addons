@@ -24,6 +24,19 @@ msgid "Active"
 msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
+#: model:ir.model.fields,help:eiras_l10n_br_nfse_obra_custom.field_account_bank_statement_line__obra_send_data
+#: model:ir.model.fields,help:eiras_l10n_br_nfse_obra_custom.field_account_move__obra_send_data
+#: model:ir.model.fields,help:eiras_l10n_br_nfse_obra_custom.field_account_payment__obra_send_data
+#: model:ir.model.fields,help:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_document__obra_send_data
+msgid ""
+"Alguns itens de serviço/municípios rejeitam o bloco 'obra' no envio ao Focus"
+" NFe, retornando 'Reg50 - O Serviço Informado Não Aceita Dados de Obra' "
+"(ex.: item de lista de serviço 7.10). Desmarque esta opção nesses casos para"
+" continuar enviando o endereço da Obra em 'servico.endereco', sem enviar o "
+"bloco 'obra'."
+msgstr ""
+
+#. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__cno_cei
 msgid "CNO/CEI"
 msgstr ""
@@ -76,6 +89,14 @@ msgstr ""
 #. module: eiras_l10n_br_nfse_obra_custom
 #: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_obra__district
 msgid "District"
+msgstr ""
+
+#. module: eiras_l10n_br_nfse_obra_custom
+#: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_account_bank_statement_line__obra_send_data
+#: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_account_move__obra_send_data
+#: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_account_payment__obra_send_data
+#: model:ir.model.fields,field_description:eiras_l10n_br_nfse_obra_custom.field_l10n_br_fiscal_document__obra_send_data
+msgid "Enviar Dados da Obra"
 msgstr ""
 
 #. module: eiras_l10n_br_nfse_obra_custom
