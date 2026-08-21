@@ -15,10 +15,10 @@ class StockPicking(models.Model):
     def _check_register_values(self):
         for picking in self:
             if picking.initial_register_value or picking.final_register_value:
-                if picking.final_register_value <= picking.initial_register_value:
+                if picking.final_register_value >= picking.initial_register_value:
                     raise ValidationError(
                         _(
-                            "The final register value must be greater than the "
+                            "The final register value must be lower than the "
                             "initial register value."
                         )
                     )

@@ -379,6 +379,15 @@ ul.auto-toc {
 numeric fields, Initial Register Value and Final Register Value,
 to the fuel consumption wizard and to the fuel consumption stock pickings
 and stock moves.</p>
+<p>In the fuel consumption wizard it also:</p>
+<ul class="simple">
+<li>fills the Source Location with the default source location of the
+selected Operation Type;</li>
+<li>computes the Quantity as the difference between the Initial Register Value
+and the Final Register Value (the tank level goes down when a vehicle is
+refueled), in the unit of measure of the selected product, making that
+field read-only while both readings are filled.</li>
+</ul>
 <p><strong>Table of contents</strong></p>
 <div class="contents local topic" id="contents">
 <ul class="simple">
