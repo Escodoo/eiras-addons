@@ -16,6 +16,11 @@
                 <field name="initial_register_value" />
                 <field name="final_register_value" />
             </xpath>
+            <xpath expr="//field[@name='product_uom_qty']" position="attributes">
+                <attribute
+                    name="attrs"
+                >{'readonly': [('initial_register_value', '!=', 0), ('final_register_value', '!=', 0)]}</attribute>
+            </xpath>
         </field>
     </record>
 </odoo>

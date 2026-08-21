@@ -55,7 +55,7 @@ msgstr ""
 #: code:addons/eiras_fuel_stock_consume_custom/wizards/fuel_consume_wizard.py:0
 #, python-format
 msgid ""
-"The final register value must be greater than the initial register value."
+"The final register value must be lower than the initial register value."
 msgstr ""
 
 #. module: eiras_fuel_stock_consume_custom
