@@ -15,6 +15,7 @@
                 <field name="quantity" />
                 <field name="price_unit" />
                 <field name="total_value" />
+                <field name="odometer_value" />
                 <field name="purchase_order_id" />
                 <field name="source_hash" />
             </tree>
