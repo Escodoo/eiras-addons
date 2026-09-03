@@ -43,8 +43,8 @@
                             <field name="street_number" />
                             <field name="street_number2" />
                             <field name="district" />
-                            <field name="state_id" />
-                            <field name="city_id" />
+                            <field name="state_id" options="{'no_create': True}" />
+                            <field name="city_id" options="{'no_create': True}" />
                             <field name="zip" />
                         </group>
                     </group>
