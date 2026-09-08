@@ -469,7 +469,7 @@ class TicketLogWizard(models.TransientModel):
         """
         if line.driver_id and line.vehicle_id:
             if line.vehicle_id.driver_id != line.driver_id:
-                line.vehicle_id.write(
+                line.vehicle_id.sudo().write(
                     {
                         "driver_id": line.driver_id.id,
                     }
