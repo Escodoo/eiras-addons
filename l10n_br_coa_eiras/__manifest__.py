@@ -3,7 +3,7 @@
 
 {
     "name": "Plano de Contas - Eiras",
-    "version": "16.0.1.0.0",
+    "version": "16.0.1.1.0",
     "category": "Accounting",
     "license": "AGPL-3",
     "author": "Escodoo",
@@ -13,6 +13,7 @@
         "data/account_chart_template.xml",
         "data/account_group.xml",
         "data/account.account.template.csv",
+        "data/l10n_br_coa.account.tax.group.account.template.csv",
         "data/account_fiscal_position_template.xml",
         "data/account_chart_template_post.xml",
     ],
