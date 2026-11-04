@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    Copyright 2026 - TODAY, Wesley Oliveira <wesley.oliveira@escodoo.com.br>
+    License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
+-->
+<odoo>
+    <record id="contract.contract_template_action" model="ir.actions.act_window">
+        <field name="context">{'default_contract_type': 'purchase'}</field>
+    </record>
+</odoo>
